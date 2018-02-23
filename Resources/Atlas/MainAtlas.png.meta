@@ -1,0 +1,3247 @@
+fileFormatVersion: 2
+guid: 282af90f47d155843b31f3b0ea69e569
+timeCreated: 1516157822
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: X
+    21300002: _0008_totalrecord_ing_bg01
+    21300004: black
+    21300006: btn_black
+    21300008: btn_blue_small
+    21300010: btn_green
+    21300012: btn_green_small
+    21300014: btn_loading
+    21300016: btn_yellow
+    21300018: btn_yellow_small
+    21300020: checkbox9
+    21300022: checkbox_no
+    21300024: checkbox_yes
+    21300026: close
+    21300028: dating_btn1
+    21300030: dating_btn2
+    21300032: dating_btn3
+    21300034: dating_btn4
+    21300036: dating_content
+    21300038: dating_content1
+    21300040: dating_gift_bangding
+    21300042: dating_gift_bangding1
+    21300044: dating_gift_bangding2
+    21300046: dating_gift_bangding3
+    21300048: dating_gift_fengxiang
+    21300050: dating_gift_fengxiang1
+    21300052: dating_gift_fengxiang2
+    21300054: dating_gift_fengxiang3
+    21300056: dating_gift_friend
+    21300058: dating_gift_friend1
+    21300060: dating_gift_friend2
+    21300062: dating_gift_friend3
+    21300064: dating_girl_ear
+    21300066: dating_girl_eye
+    21300068: dating_girl_hair1
+    21300070: dating_laba
+    21300072: dating_name
+    21300074: firend_btn1
+    21300076: firend_btn2
+    21300078: firend_content1
+    21300080: firend_content2
+    21300082: firend_content3
+    21300084: firend_content4
+    21300086: firend_content5
+    21300088: gameclean_1
+    21300090: gameclean_2
+    21300092: gameclean_3
+    21300094: gameplay_img
+    21300096: gift_content
+    21300098: icon_mail
+    21300100: icon_notice
+    21300102: icon_play
+    21300104: icon_record
+    21300106: icon_setup
+    21300108: img_card
+    21300110: img_cg
+    21300112: img_coin
+    21300114: img_content
+    21300116: img_logo
+    21300118: ing_dian
+    21300120: lodin_btn
+    21300122: lodin_input
+    21300124: lodin_slider_bg
+    21300126: mail_card
+    21300128: mail_coin
+    21300130: mail_font1
+    21300132: mail_mail1
+    21300134: mail_mail2
+    21300136: mail_nomail
+    21300138: pk_coin
+    21300140: porfile_bg_small_9
+    21300142: porfile_line
+    21300144: porfile_man
+    21300146: porfile_pen
+    21300148: porfile_touxiang_kuang
+    21300150: porfile_touxiang_kuang1
+    21300152: lo
+    21300154: porfile_touxiang_kuang3
+    21300156: porfile_woman
+    21300158: record_list
+    21300160: record_list_black
+    21300162: room_btn_delete
+    21300164: room_btn_digital
+    21300166: room_btn_emptied
+    21300168: room_btn_nor
+    21300170: room_btn_sel
+    21300172: room_forward
+    21300174: room_img_bg
+    21300176: room_line
+    21300178: set_up_dropdown_menu
+    21300180: set_up_line
+    21300182: setup_btn1
+    21300184: setup_btn2
+    21300186: shop_button1
+    21300188: shop_button2
+    21300190: shop_card2
+    21300192: shop_card3
+    21300194: shop_coin1
+    21300196: shop_coin2
+    21300198: shop_coin3
+    21300200: slider_bg
+    21300202: slider_btn
+    21300204: slider_forebg
+    21300206: texture_head_kong
+    21300208: texture_touxiang_kuang
+    21300210: tilte_headportrait
+    21300212: tips
+    21300214: title_gameplay
+    21300216: title_gift
+    21300218: title_mail
+    21300220: title_notice
+    21300222: title_room
+    21300224: title_setup
+    21300226: title_shop
+    21300228: title_tishi
+    21300230: totalrecord_btn1
+    21300232: totalrecord_btn2
+    21300234: totalrecord_btn3
+    21300236: totalrecord_btn4
+    21300238: totalrecord_content
+    21300240: totalrecord_ing_bg01
+    21300242: totalrecord_ing_bg03
+    21300244: totalrecord_ing_line
+    21300246: touxiang_kuang
+    21300248: porfile_touxiang_kuang2
+    21300250: bangding_font1
+    21300252: bangding_font2
+    21300254: btn_blue
+    21300256: btn_blue1
+    21300258: btn_blue_black
+    21300260: btn_blue_click
+    21300262: btn_green_click
+    21300264: btn_loading_click
+    21300266: btn_pk_06_font1
+    21300268: btn_pk_06_font2
+    21300270: btn_yellow_click
+    21300272: close2
+    21300274: close2_click
+    21300276: close_click
+    21300278: copy_font3
+    21300280: dating_btn2_click
+    21300282: dating_btn3_click
+    21300284: dating_btn4_click
+    21300286: dating_btn5
+    21300288: dating_btn5_click
+    21300290: dating_ID
+    21300292: dating_name_content
+    21300294: dating_point
+    21300296: firend_font1
+    21300298: icon_share
+    21300300: img_bg_big_9
+    21300302: img_card2
+    21300304: img_card_black
+    21300306: img_content2
+    21300308: img_line
+    21300310: record_list 1
+    21300312: room_btn1
+    21300314: room_btn1_click
+    21300316: room_btn2
+    21300318: room_btn2_click
+    21300320: room_btn3
+    21300322: room_btn3_click
+    21300324: room_title
+    21300326: setup_font1
+    21300328: setup_music
+    21300330: setup_music_no
+    21300332: setup_sound
+    21300334: setup_sound_no
+    21300336: slider_btn_click
+    21300338: title_bangding
+    21300340: title_friend
+    21300342: title_mail_font1
+    21300344: title_mail_font2
+    21300346: title_mail_font3
+    21300348: title_mail_font4
+    21300350: title_play
+    21300352: title_room_font1
+    21300354: title_room_font2
+    21300356: title_title
+    21300358: title_totalrecord 1
+    21300360: title_totalrecord 2
+    21300362: title_totalrecord
+    21300364: totalrecord_2
+    21300366: totalrecord_6
+    21300368: totalrecord_8
+    21300370: totalrecord_10
+    21300372: totalrecord_A
+    21300374: totalrecord_font1
+    21300376: totalrecord_font2
+    21300378: ts0
+    21300380: ts1
+    21300382: ts2
+    21300384: ts3
+    21300386: ts4
+    21300388: ts5
+    21300390: ts6
+    21300392: ts7
+    21300394: ts8
+    21300396: ts9
+    21300398: btn_lodin3_click
+    21300400: btn_lodin3
+    21300402: img_title3
+    21300404: img_bg_small_9
+    21300406: img_bg_left_9
+    21300408: img_bg_small2_9
+    21300410: lodin_slider_forebg
+    21300412: totalrecord_btn5
+    21300414: totalrecord_btn6
+    21300416: totalrecord_bg2
+    21300418: totalrecord_left_btn2
+    21300420: totalrecord_left_btn1
+    21300422: totalrecord_unsel_font1
+    21300424: totalrecord_unsel_font2
+    21300426: totalrecord_sel_font1
+    21300428: totalrecord_sel_font2
+    21300430: totalrecord_bg1
+    21300432: totalrecord_ing_bg02
+    21300434: shop_card1
+    21300436: shop_bg3
+    21300438: shop_hot
+    21300440: shop_price3
+    21300442: shop_price2
+    21300444: shop_price1
+    21300446: shop_bg2
+    21300448: room_left_line
+    21300450: room_btn
+    21300452: title_totalrecord (2)
+    21300454: title_room_font2_click
+    21300456: title_room_font1_click
+    21300458: room_btn_create
+    21300460: record_list_bg_9
+    21300462: joinroom_title
+    21300464: createroom_title
+    21300466: title_room_font_rule1
+    21300468: title_room_font_rule2
+    21300470: title_room_font_rule2_clcik
+    21300472: title_room_font_rule_click
+    21300474: Rule_btn1
+    21300476: Rule_btn2
+    21300478: transParent
+    21300480: record_list_self
+    21300482: invite_title
+    21300484: invite_btn
+    21300486: invite_left_bg
+    21300488: icon_task
+    21300490: ActivityClose
+    21300492: room_Title_btn
+    21300494: room_btn_self2_click
+    21300496: room_btn_self1_click
+    21300498: room_btn_self1
+    21300500: room_btn_self2
+    21300502: room_btn3_click
+    21300504: room_btn3
+    21300506: room_btn_top1
+    21300508: room_btn_top2
+    21300510: room_btn_small1
+    21300512: room_btn_small1_click
+    21300514: room_font_self1
+    21300516: room_font_self2
+    21300518: room_font1
+    21300520: room_font1_black
+    21300522: room_font2_click
+    21300524: room_font_small2
+    21300526: room_font_small1
+    21300528: room_font2
+    21300530: hasopenroom_btn2_font1
+    21300532: hasopenroom_btn2_font2
+    21300534: hasopenroom_btn2_font1_black
+    21300536: hasopenroom_btn2_font2_black
+    21300538: roomTitle_Selected
+    21300540: roomTitle_NoSelected
+    21300542: totalrecord_btn_details2
+    21300544: totalrecord_btn_details1
+    21300546: totalrecord_video
+    21300548: room_btn2_font1
+    21300550: room_btn2_font2
+    21300552: room_btn_small2_click
+    21300554: room_btn_small2
+    21300556: room_btn2_font1_black
+    21300558: room_btn2_font2_black
+    21300560: totalrecord_title_details
+    21300562: totalrecord_btn_details_font1
+    21300564: totalrecord_btn_details_font2
+    21300566: totalrecord_video_btn_replay
+    21300568: totalrecord_video_btn_fastforward
+    21300570: totalrecord_video_btn_stop
+    21300572: totalrecord_video_btn_close
+    21300574: totalrecord_video_x2
+    21300576: totalrecord_video_x4
+    21300578: totalrecord_video_connent
+    21300580: playback_replay
+    21300582: playback_fastIcon
+    21300584: playback_pause
+    21300586: playback_Close
+    21300588: playback_fast_two
+    21300590: playback_fast_four
+    21300592: playBack_video_line
+    21300594: playback_pauseing
+    21300596: shop_bg1
+    21300598: shop_price4
+    21300600: shop_price5
+    21300602: shop_price6
+    21300604: pk_lixian
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: mail_card
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 290
+        height: 292
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: shop_bg1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 293
+        width: 320
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: mail_coin
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 0
+        width: 240
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dating_btn3
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 0
+        width: 427
+        height: 128
+      alignment: 9
+      pivot: {x: 0.50592417, y: 0.488}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dating_btn2_click
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 0
+        width: 427
+        height: 128
+      alignment: 9
+      pivot: {x: 0.50592417, y: 0.48387095}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dating_btn2
+      rect:
+        serializedVersion: 2
+        x: 1388
+        y: 0
+        width: 427
+        height: 128
+      alignment: 9
+      pivot: {x: 0.50592417, y: 0.48387095}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dating_btn3_click
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 129
+        width: 427
+        height: 128
+      alignment: 9
+      pivot: {x: 0.50592417, y: 0.488}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dating_btn4
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 129
+        width: 427
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dating_btn5_click
+      rect:
+        serializedVersion: 2
+        x: 1388
+        y: 129
+        width: 427
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dating_btn5
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 258
+        width: 427
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dating_btn4_click
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 258
+        width: 427
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: img_logo
+      rect:
+        serializedVersion: 2
+        x: 1177
+        y: 258
+        width: 346
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: btn_loading_click
+      rect:
+        serializedVersion: 2
+        x: 1524
+        y: 258
+        width: 386
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: btn_loading
+      rect:
+        serializedVersion: 2
+        x: 1524
+        y: 363
+        width: 386
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: btn_lodin3_click
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 387
+        width: 386
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: btn_lodin3
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 387
+        width: 386
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: room_left_line
+      rect:
+        serializedVersion: 2
+        x: 1095
+        y: 387
+        width: 66
+        height: 607
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: mail_font1
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 415
+        width: 339
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Rule_btn1
+      rect:
+        serializedVersion: 2
+        x: 1502
+        y: 468
+        width: 239
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Rule_btn2
+      rect:
+        serializedVersion: 2
+        x: 1742
+        y: 468
+        width: 235
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: shop_coin1
+      rect:
+        serializedVersion: 2
+        x: 1816
+        y: 0
+        width: 162
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: shop_coin3
+      rect:
+        serializedVersion: 2
+        x: 1742
+        y: 570
+        width: 162
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: shop_coin2
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 503
+        width: 162
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: shop_card2
+      rect:
+        serializedVersion: 2
+        x: 1325
+        y: 503
+        width: 162
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: shop_card3
+      rect:
+        serializedVersion: 2
+        x: 1488
+        y: 572
+        width: 162
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: shop_card1
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 644
+        width: 162
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lodin_btn
+      rect:
+        serializedVersion: 2
+        x: 1651
+        y: 711
+        width: 257
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: img_bg_small_9
+      rect:
+        serializedVersion: 2
+        x: 1978
+        y: 141
+        width: 33
+        height: 618
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 13, y: 0, z: 11, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: totalrecord_video
+      rect:
+        serializedVersion: 2
+        x: 1325
+        y: 644
+        width: 140
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: texture_head_kong
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 785
+        width: 140
+        height: 140
+      alignment: 9
+      pivot: {x: 0.49624062, y: 0.5037594}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: shop_bg3
+      rect:
+        serializedVersion: 2
+        x: 2012
+        y: 0
+        width: 30
+        height: 580
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 10, y: 148, z: 10, w: 119}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: room_btn
+      rect:
+        serializedVersion: 2
+        x: 1303
+        y: 787
+        width: 225
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: totalrecord_bg2
+      rect:
+        serializedVersion: 2
+        x: 2012
+        y: 581
+        width: 30
+        height: 560
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 10, y: 20, z: 10, w: 50}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: img_title3
+      rect:
+        serializedVersion: 2
+        x: 1529
+        y: 799
+        width: 220
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 87, y: 0, z: 81, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: img_bg_big_9
+      rect:
+        serializedVersion: 2
+        x: 1303
+        y: 863
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 30, y: 30, z: 30, w: 30}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: roomTitle_Selected
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 799
+        width: 238
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: roomTitle_NoSelected
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 863
+        width: 237
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dating_content1
+      rect:
+        serializedVersion: 2
+        x: 1432
+        y: 927
+        width: 331
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lodin_input
+      rect:
+        serializedVersion: 2
+        x: 1432
+        y: 973
+        width: 341
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 95, y: 14, z: 107, w: 13}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: record_list_bg_9
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 926
+        width: 28
+        height: 497
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 14, y: 85, z: 10, w: 107}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: room_btn_self2_click
+      rect:
+        serializedVersion: 2
+        x: 1191
+        y: 992
+        width: 203
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: room_btn_self1_click
+      rect:
+        serializedVersion: 2
+        x: 1774
+        y: 927
+        width: 203
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: room_btn_self2
+      rect:
+        serializedVersion: 2
+        x: 1774
+        y: 995
+        width: 203
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: room_btn_self1
+      rect:
+        serializedVersion: 2
+        x: 1395
+        y: 1017
+        width: 203
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: slider_bg
+      rect:
+        serializedVersion: 2
+        x: 1599
+        y: 1063
+        width: 364
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: invite_left_bg
+      rect:
+        serializedVersion: 2
+        x: 1988
+        y: 863
+        width: 21
+        height: 615
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 12, y: 50, z: 5, w: 50}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: ActivityClose
+      rect:
+        serializedVersion: 2
+        x: 1909
+        y: 570
+        width: 67
+        height: 189
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: totalrecord_btn5
+      rect:
+        serializedVersion: 2
+        x: 1191
+        y: 1060
+        width: 199
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: totalrecord_btn6
+      rect:
+        serializedVersion: 2
+        x: 1391
+        y: 1085
+        width: 199
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: btn_blue_click
+      rect:
+        serializedVersion: 2
+        x: 1466
+        y: 713
+        width: 176
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: btn_blue
+      rect:
+        serializedVersion: 2
+        x: 1191
+        y: 1123
+        width: 176
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: btn_yellow
+      rect:
+        serializedVersion: 2
+        x: 1591
+        y: 1101
+        width: 184
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 30, y: 20, z: 30, w: 20}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: btn_green
+      rect:
+        serializedVersion: 2
+        x: 1368
+        y: 1148
+        width: 184
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: btn_green_click
+      rect:
+        serializedVersion: 2
+        x: 1776
+        y: 1101
+        width: 184
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: btn_yellow_click
+      rect:
+        serializedVersion: 2
+        x: 1553
+        y: 1167
+        width: 184
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 30, y: 20, z: 30, w: 20}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: tilte_headportrait
+      rect:
+        serializedVersion: 2
+        x: 1738
+        y: 1167
+        width: 202
+        height: 56
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5090909}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: totalrecord_left_btn2
+      rect:
+        serializedVersion: 2
+        x: 1191
+        y: 1194
+        width: 175
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: totalrecord_left_btn1
+      rect:
+        serializedVersion: 2
+        x: 1367
+        y: 1214
+        width: 175
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: porfile_touxiang_kuang
+      rect:
+        serializedVersion: 2
+        x: 1816
+        y: 141
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: title_bangding
+      rect:
+        serializedVersion: 2
+        x: 1738
+        y: 1224
+        width: 196
+        height: 56
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5090909}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: shop_price6
+      rect:
+        serializedVersion: 2
+        x: 1432
+        y: 876
+        width: 226
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: shop_price5
+      rect:
+        serializedVersion: 2
+        x: 1191
+        y: 1279
+        width: 226
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: shop_price4
+      rect:
+        serializedVersion: 2
+        x: 1418
+        y: 1279
+        width: 226
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: shop_hot
+      rect:
+        serializedVersion: 2
+        x: 1645
+        y: 1281
+        width: 105
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: tips
+      rect:
+        serializedVersion: 2
+        x: 1751
+        y: 1281
+        width: 198
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 40, y: 0, z: 40, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: invite_title
+      rect:
+        serializedVersion: 2
+        x: 1751
+        y: 1335
+        width: 199
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: title_totalrecord 1
+      rect:
+        serializedVersion: 2
+        x: 1191
+        y: 1328
+        width: 197
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: title_room_font2
+      rect:
+        serializedVersion: 2
+        x: 1651
+        y: 572
+        width: 88
+        height: 111
+      alignment: 9
+      pivot: {x: 0.5, y: 0.47727272}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: title_play
+      rect:
+        serializedVersion: 2
+        x: 1389
+        y: 1328
+        width: 191
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: joinroom_title
+      rect:
+        serializedVersion: 2
+        x: 1191
+        y: 1379
+        width: 191
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: createroom_title
+      rect:
+        serializedVersion: 2
+        x: 1383
+        y: 1380
+        width: 191
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: room_btn3
+      rect:
+        serializedVersion: 2
+        x: 1575
+        y: 1383
+        width: 138
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: room_btn1_click
+      rect:
+        serializedVersion: 2
+        x: 1714
+        y: 1386
+        width: 138
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: room_btn2_click
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1424
+        width: 138
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: room_btn1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 995
+        width: 138
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: room_btn3_click
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1064
+        width: 138
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: room_btn2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1133
+        width: 138
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: img_cg
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1202
+        width: 241
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: room_btn_top1
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 995
+        width: 156
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: totalrecord_btn4
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 1047
+        width: 153
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: totalrecord_btn3
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 1097
+        width: 153
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: title_totalrecord
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 1147
+        width: 145
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: img_content2
+      rect:
+        serializedVersion: 2
+        x: 1853
+        y: 1386
+        width: 130
+        height: 56
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4814815}
+      border: {x: 20, y: 20, z: 20, w: 20}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: room_btn2_font1
+      rect:
+        serializedVersion: 2
+        x: 1599
+        y: 1017
+        width: 162
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hasopenroom_btn2_font1
+      rect:
+        serializedVersion: 2
+        x: 1543
+        y: 1233
+        width: 162
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: title_room_font2_click
+      rect:
+        serializedVersion: 2
+        x: 1853
+        y: 1443
+        width: 75
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: room_btn_top2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1241
+        width: 148
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: room_btn2_font2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1290
+        width: 161
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hasopenroom_btn2_font2
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 1241
+        width: 161
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: btn_blue1
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 1147
+        width: 120
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: btn_blue_black
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 1047
+        width: 120
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: room_btn_small1_click
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1335
+        width: 128
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: room_btn_small2_click
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 1335
+        width: 128
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: room_btn_small1
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 492
+        width: 128
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: room_btn_small2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 496
+        width: 128
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: icon_notice
+      rect:
+        serializedVersion: 2
+        x: 1929
+        y: 1479
+        width: 82
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: icon_share
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 496
+        width: 82
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: icon_task
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 496
+        width: 82
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: icon_setup
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 551
+        width: 82
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: icon_mail
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 547
+        width: 82
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: icon_record
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 581
+        width: 82
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: icon_play
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 636
+        width: 82
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: title_room_font1
+      rect:
+        serializedVersion: 2
+        x: 1911
+        y: 247
+        width: 62
+        height: 110
+      alignment: 9
+      pivot: {x: 0.49473685, y: 0.4888889}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hasopenroom_btn2_font1_black
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 995
+        width: 153
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: room_btn2_font1_black
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 1286
+        width: 153
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hasopenroom_btn2_font2_black
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 1206
+        width: 152
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: room_btn2_font2_black
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 1106
+        width: 152
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: close_click
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 581
+        width: 77
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: close
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 995
+        width: 77
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: img_content
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 995
+        width: 80
+        height: 74
+      alignment: 9
+      pivot: {x: 0.4935065, y: 0.5}
+      border: {x: 20, y: 20, z: 20, w: 20}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: title_tishi
+      rect:
+        serializedVersion: 2
+        x: 1191
+        y: 926
+        width: 102
+        height: 54
+      alignment: 9
+      pivot: {x: 0.5, y: 0.509434}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: title_setup
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 1150
+        width: 102
+        height: 54
+      alignment: 9
+      pivot: {x: 0.4950495, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bangding_font2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 721
+        width: 144
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: invite_btn
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 666
+        width: 143
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: room_btn_create
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 760
+        width: 138
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: room_font_self1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 799
+        width: 137
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pk_coin
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 1070
+        width: 167
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 20, y: 0, z: 20, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: title_room_font1_click
+      rect:
+        serializedVersion: 2
+        x: 1922
+        y: 141
+        width: 54
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: room_font_self2
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 995
+        width: 135
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: totalrecord_title_details
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 838
+        width: 98
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: btn_pk_06_font1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 891
+        width: 134
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: btn_pk_06_font2
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 838
+        width: 134
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: setup_font1
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 799
+        width: 141
+        height: 36
+      alignment: 9
+      pivot: {x: 0.4966443, y: 0.4871795}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: title_mail
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 930
+        width: 97
+        height: 52
+      alignment: 9
+      pivot: {x: 0.49565217, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: mail_mail1
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 705
+        width: 70
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: totalrecord_ing_bg01
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 581
+        width: 42
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 13, y: 20, z: 12, w: 20}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: porfile_man
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 705
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: porfile_woman
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 877
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: shop_price3
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 1034
+        width: 169
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: shop_price2
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 995
+        width: 162
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: mail_mail2
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 877
+        width: 72
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: title_room_font_rule1
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 948
+        width: 96
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: shop_price1
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 1250
+        width: 157
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dating_content
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 948
+        width: 94
+        height: 46
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4888889}
+      border: {x: 30, y: 0, z: 30, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dating_name_content
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 1205
+        width: 98
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 25, y: 0, z: 25, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: title_mail_font2
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 836
+        width: 126
+        height: 34
+      alignment: 9
+      pivot: {x: 0.5, y: 0.51282054}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: record_list
+      rect:
+        serializedVersion: 2
+        x: 1941
+        y: 1167
+        width: 46
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 16, y: 31, z: 17, w: 34}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: record_list_self
+      rect:
+        serializedVersion: 2
+        x: 1911
+        y: 358
+        width: 46
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 12, y: 18, z: 13, w: 12}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dating_btn1
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 1102
+        width: 64
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: firend_font1
+      rect:
+        serializedVersion: 2
+        x: 1659
+        y: 876
+        width: 90
+        height: 44
+      alignment: 9
+      pivot: {x: 0.49438202, y: 0.4883721}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lodin_slider_bg
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 776
+        width: 178
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 30, y: 0, z: 30, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: totalrecord_btn_details1
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 871
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: totalrecord_btn_details2
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 1165
+        width: 145
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: room_font1
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 799
+        width: 113
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: title_room_font_rule2
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 1102
+        width: 87
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: room_font2
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 1106
+        width: 111
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: img_bg_small2_9
+      rect:
+        serializedVersion: 2
+        x: 2012
+        y: 1142
+        width: 7
+        height: 482
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 4, y: 0, z: 2, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: title_room_font_rule2_clcik
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 933
+        width: 85
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: title_room_font_rule_click
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 871
+        width: 85
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dating_laba
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 799
+        width: 54
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: room_font1_black
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 1075
+        width: 107
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: room_font2_click
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 1063
+        width: 105
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: close2
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 911
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: close2_click
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 860
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: totalrecord_btn_details_font1
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 1024
+        width: 108
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: porfile_bg_small_9
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 917
+        width: 44
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 10, y: 10, z: 12, w: 10}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bangding_font1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1390
+        width: 120
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: record_list 1
+      rect:
+        serializedVersion: 2
+        x: 1979
+        y: 0
+        width: 32
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: img_card2
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 917
+        width: 50
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: totalrecord_btn_details_font2
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 1390
+        width: 106
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: totalrecord_video_connent
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 632
+        width: 53
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 22, y: 23, z: 18, w: 20}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: setup_music
+      rect:
+        serializedVersion: 2
+        x: 1581
+        y: 1328
+        width: 54
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: setup_sound_no
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 689
+        width: 54
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: slider_btn_click
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 632
+        width: 54
+        height: 54
+      alignment: 9
+      pivot: {x: 0.51428574, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: setup_music_no
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 547
+        width: 54
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: slider_btn
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 687
+        width: 54
+        height: 54
+      alignment: 9
+      pivot: {x: 0.51428574, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: setup_sound
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 742
+        width: 54
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: totalrecord_font2
+      rect:
+        serializedVersion: 2
+        x: 1909
+        y: 760
+        width: 81
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: room_font_small2
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 744
+        width: 100
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: totalrecord_font1
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 797
+        width: 81
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: room_font_small1
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 831
+        width: 99
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: title_mail_font4
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 859
+        width: 73
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: img_card
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 894
+        width: 43
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: img_card_black
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 602
+        width: 43
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: X
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 547
+        width: 44
+        height: 53
+      alignment: 9
+      pivot: {x: 0.5, y: 0.50961536}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: totalrecord_unsel_font2
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 1206
+        width: 67
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: totalrecord_sel_font1
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 950
+        width: 67
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: totalrecord_sel_font2
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 492
+        width: 67
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: totalrecord_unsel_font1
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 658
+        width: 67
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: copy_font3
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 693
+        width: 69
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: playback_replay
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 601
+        width: 44
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: img_coin
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 653
+        width: 58
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: img_bg_left_9
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 727
+        width: 43
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 13, y: 12, z: 11, w: 13}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pk_lixian
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 690
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: totalrecord_bg1
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 723
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 10, y: 10, z: 10, w: 10}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: playback_fastIcon
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 769
+        width: 47
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: playback_pause
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 813
+        width: 42
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: playback_pauseing
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 527
+        width: 42
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: playback_Close
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 860
+        width: 42
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: shop_bg2
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 904
+        width: 40
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 12, y: 13, z: 14, w: 13}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: title_mail_font1
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 571
+        width: 61
+        height: 28
+      alignment: 9
+      pivot: {x: 0.50537634, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: title_mail_font3
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 492
+        width: 60
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: record_list_black
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 949
+        width: 38
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 14, y: 19, z: 15, w: 13}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: porfile_pen
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 1039
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: checkbox_no
+      rect:
+        serializedVersion: 2
+        x: 1929
+        y: 1443
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: ts5
+      rect:
+        serializedVersion: 2
+        x: 1979
+        y: 98
+        width: 30
+        height: 40
+      alignment: 9
+      pivot: {x: 0.4814815, y: 0.5135135}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: ts7
+      rect:
+        serializedVersion: 2
+        x: 1706
+        y: 1233
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: ts3
+      rect:
+        serializedVersion: 2
+        x: 1950
+        y: 1258
+        width: 30
+        height: 40
+      alignment: 9
+      pivot: {x: 0.4814815, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: ts0
+      rect:
+        serializedVersion: 2
+        x: 1951
+        y: 1299
+        width: 30
+        height: 40
+      alignment: 9
+      pivot: {x: 0.4827586, y: 0.51282054}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: ts6
+      rect:
+        serializedVersion: 2
+        x: 1951
+        y: 1340
+        width: 30
+        height: 40
+      alignment: 9
+      pivot: {x: 0.5, y: 0.51282054}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: ts1
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 904
+        width: 30
+        height: 40
+      alignment: 9
+      pivot: {x: 0.5714286, y: 0.4864865}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: ts8
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 945
+        width: 30
+        height: 40
+      alignment: 9
+      pivot: {x: 0.4827586, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: ts9
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 521
+        width: 30
+        height: 40
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4871795}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: ts2
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 600
+        width: 30
+        height: 40
+      alignment: 9
+      pivot: {x: 0.4642857, y: 0.47368422}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: ts4
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 600
+        width: 30
+        height: 40
+      alignment: 9
+      pivot: {x: 0.5, y: 0.47368422}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: slider_forebg
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 832
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 10, y: 10, z: 10, w: 10}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: checkbox_yes
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 562
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dating_ID
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 551
+        width: 32
+        height: 28
+      alignment: 9
+      pivot: {x: 0.4827586, y: 0.5185185}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: gameplay_img
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 236
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: totalrecord_ing_bg02
+      rect:
+        serializedVersion: 2
+        x: 1961
+        y: 1101
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 11, y: 11, z: 13, w: 11}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dating_name
+      rect:
+        serializedVersion: 2
+        x: 1965
+        y: 1443
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: playback_fast_two
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 894
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: set_up_line
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 1054
+        width: 351
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: playback_fast_four
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 911
+        width: 33
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lodin_slider_forebg
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 705
+        width: 39
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 10, y: 0, z: 10, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: ing_dian
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 527
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: black
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 602
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 5, y: 5, z: 5, w: 5}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: playBack_video_line
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 860
+        width: 2
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dating_point
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 933
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: transParent
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 690
+        width: 1
+        height: 1
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

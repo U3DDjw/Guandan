@@ -1,0 +1,48 @@
+
+taoxin.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+hy
+  rotate: false
+  xy: 2, 2
+  size: 165, 38
+  orig: 165, 38
+  offset: 0, 0
+  index: -1
+ks
+  rotate: false
+  xy: 271, 164
+  size: 109, 51
+  orig: 109, 51
+  offset: 0, 0
+  index: -1
+tou
+  rotate: false
+  xy: 2, 42
+  size: 173, 173
+  orig: 173, 173
+  offset: 0, 0
+  index: -1
+xin1
+  rotate: false
+  xy: 177, 135
+  size: 92, 80
+  orig: 92, 80
+  offset: 0, 0
+  index: -1
+xin2
+  rotate: false
+  xy: 177, 53
+  size: 92, 80
+  orig: 92, 80
+  offset: 0, 0
+  index: -1
+zui
+  rotate: false
+  xy: 382, 177
+  size: 120, 38
+  orig: 120, 38
+  offset: 0, 0
+  index: -1

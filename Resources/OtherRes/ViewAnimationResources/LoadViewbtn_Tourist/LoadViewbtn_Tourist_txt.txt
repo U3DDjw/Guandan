@@ -1,0 +1,54 @@
+
+btn2.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+10
+  rotate: false
+  xy: 390, 320
+  size: 386, 104
+  orig: 394, 120
+  offset: 4, 9
+  index: -1
+11
+  rotate: false
+  xy: 2, 108
+  size: 386, 104
+  orig: 394, 120
+  offset: 4, 9
+  index: -1
+12
+  rotate: false
+  xy: 390, 214
+  size: 386, 104
+  orig: 394, 120
+  offset: 4, 9
+  index: -1
+13
+  rotate: false
+  xy: 2, 2
+  size: 386, 104
+  orig: 394, 120
+  offset: 4, 9
+  index: -1
+14
+  rotate: false
+  xy: 390, 108
+  size: 386, 104
+  orig: 394, 120
+  offset: 4, 9
+  index: -1
+8
+  rotate: false
+  xy: 2, 320
+  size: 386, 104
+  orig: 394, 120
+  offset: 4, 9
+  index: -1
+9
+  rotate: false
+  xy: 2, 214
+  size: 386, 104
+  orig: 394, 120
+  offset: 4, 9
+  index: -1

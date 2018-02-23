@@ -1,0 +1,104 @@
+--参考demo，制作新的View 参考详细用例 及 相关常用语法
+--1) 挂载click
+--2) 本地消息机制传输
+
+local speed = 10
+
+local CU = CS.UnityEngine
+local Notic =CS.DNotificationCenterManager.NotificationCenter.Instance()
+local EventTrigger = CS.EventTriggerListener
+local NetInstance = CS.Net.NetManager.GetInstance()
+
+function start()
+	print("lua start.www..")
+	
+	 
+	--self:GetComponent("Button").onClick:AddListener(OnBtnTestClick)   原生方法
+	EventTrigger.Get(self.gameObject).onClick = OnBtnTestClick   -- 封装过的方法
+	EventTrigger.Get(TestPostBtn).onClick = PostArgs
+	EventTrigger.Get(TestSendBtn).onClick = SendServer
+	Notic:AddEventListener(100, LocalUpdateTest)
+	Notic:AddEventListener(101,  LocalUpdateTestTwo)
+	
+	
+	 --创建房间成功回调消息(本应该写在HomeModule的AddServerCallBack中,这边图方便)
+	  NetInstance:AddCallback("GD_KF_SUC", RoomCreateSuccess); 
+	 
+	
+end
+
+--服务器回调接收函数
+function RoomCreateSuccess(msg)
+print(" this isLua RoomCreateSuccess Server callBack")
+print(msg:getType())
+local ms = CS.GameManager.Instance:GetMemoryStream(msg)
+print("11")
+	local data = CS.Game.Serial:Deserialize(ms,nil,typeof(CS.ZhiWa.MsgRoomInfo))
+	print("222")
+	CS.RoomInfo.Instance:GetRoomInfo(data);
+	print("3333")
+	Notic:PostDispatchEvent(8);
+end
+
+--按钮点击事件
+function OnBtnTestClick(g)
+
+	print("clicked, you input is  "..name:GetComponent("Text").text)
+		name:GetComponent("Text").text = "Hot Djw"
+end
+
+--本地消息机制接收消息
+function LocalUpdateTest(e)
+	print("this is TestHotView call back")	
+	print(e.param.testName)
+end
+
+
+
+function update()
+	-- local r = CS.UnityEngine.Vector3.up * CS.UnityEngine.Time.deltaTime * speed
+	-- self.transform:Rotate(r)
+	
+	if CU.Input.GetKeyDown(CU.KeyCode.Q) then
+	  CU.Debug.Log("Lua Input Q")
+	  
+	 PostArgs()
+	end
+	
+	if CU.Input.GetKeyDown(CU.KeyCode.W) then
+	  CU.Debug.Log("Lua Input W")
+	  SendServer()
+	 
+	 end
+end
+
+
+--本地消息机制发送消息
+function PostArgs()	
+		local args = CS.MsgContainer.ArgsTest()
+		args.testId =1
+		args.testName = "djw"		
+ Notic:PostDispatchEvent(100,args);
+end
+
+--向服务器发送消息， 测试（创建房间消息）
+function SendServer()
+	local msg = CS.ZhiWa.MsgRoomInfo()
+	msg.creater_id = CS.PlayerInfo.Instance.mPlayerPid
+	msg.game_type = CS.ZhiWa.TGuanDanGameType.TGuanDanGameTypeZhuanDan 
+	 msg.card_use_type = CS.ZhiWa.TGuanDanCardUseType.TGuanDanCardUseTypeAa
+	msg.game_num = 4
+	NetInstance:SendMsgToServer("test_createRoom",msg)
+
+end
+
+
+
+
+
+function ondestroy()
+    print("lua destroy")
+	Notic:RemoveEventListener(100, LocalUpdateTest)
+	Notic:RemoveEventListener(101, LocalUpdateTestTwo)
+	
+end

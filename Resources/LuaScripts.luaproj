@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>E439935D-B2A2-46AE-856D-2AA408428F33</ProjectGuid>
+    <!--$guid1$-->
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>
+    </StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="LuaScripts\" />
+    <Folder Include="LuaScripts\Common\" />
+    <Folder Include="LuaScripts\HotFix\" />
+    <Folder Include="LuaScripts\Views\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="LuaScripts\Common\cs_coroutine.txt" />
+    <Content Include="LuaScripts\Common\ExtendGlobal.txt" />
+    <Content Include="LuaScripts\Common\FirstModule.txt" />
+    <Content Include="LuaScripts\Common\helper.txt" />
+    <Content Include="LuaScripts\Common\LuaGlobalData.txt" />
+    <Content Include="LuaScripts\Common\messenger.txt" />
+    <Content Include="LuaScripts\Common\util.txt" />
+    <Content Include="LuaScripts\Main.txt" />
+    <Content Include="LuaScripts\Views\Box.txt" />
+    <Content Include="LuaScripts\Views\HomeViewDatingNotic.txt" />
+    <Content Include="LuaScripts\Views\HotFixTest.txt" />
+    <Content Include="LuaScripts\Views\Item.txt" />
+    <Content Include="LuaScripts\Views\LuaHomeViewTaskBtn.txt" />
+    <Content Include="LuaScripts\Views\LuaTaskView.txt" />
+    <Content Include="LuaScripts\Views\Panel.txt" />
+    <Content Include="LuaScripts\Views\TestHotView.txt" />
+    <Content Include="LuaScripts\Views\TestPrefabView.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
+</Project>

@@ -1,0 +1,27 @@
+
+xiao.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+tou
+  rotate: false
+  xy: 2, 76
+  size: 173, 173
+  orig: 173, 173
+  offset: 0, 0
+  index: -1
+yan
+  rotate: true
+  xy: 177, 120
+  size: 129, 63
+  orig: 129, 63
+  offset: 0, 0
+  index: -1
+zui
+  rotate: false
+  xy: 2, 2
+  size: 150, 72
+  orig: 150, 72
+  offset: 0, 0
+  index: -1

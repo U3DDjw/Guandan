@@ -1,0 +1,76 @@
+
+sikao.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+l_mm
+  rotate: false
+  xy: 178, 63
+  size: 30, 21
+  orig: 30, 21
+  offset: 0, 0
+  index: -1
+l_yb
+  rotate: false
+  xy: 178, 121
+  size: 42, 43
+  orig: 42, 43
+  offset: 0, 0
+  index: -1
+l_yz
+  rotate: false
+  xy: 148, 25
+  size: 18, 20
+  orig: 18, 20
+  offset: 0, 0
+  index: -1
+r_mm
+  rotate: false
+  xy: 178, 86
+  size: 42, 33
+  orig: 42, 33
+  offset: 0, 0
+  index: -1
+r_yb
+  rotate: false
+  xy: 86, 14
+  size: 60, 62
+  orig: 60, 62
+  offset: 0, 0
+  index: -1
+r_yz
+  rotate: false
+  xy: 148, 47
+  size: 28, 29
+  orig: 28, 29
+  offset: 0, 0
+  index: -1
+shou
+  rotate: false
+  xy: 2, 2
+  size: 82, 74
+  orig: 82, 74
+  offset: 0, 0
+  index: -1
+tou
+  rotate: false
+  xy: 2, 78
+  size: 174, 174
+  orig: 174, 174
+  offset: 0, 0
+  index: -1
+wenhao
+  rotate: false
+  xy: 178, 166
+  size: 50, 86
+  orig: 50, 86
+  offset: 0, 0
+  index: -1
+zui
+  rotate: true
+  xy: 230, 218
+  size: 34, 20
+  orig: 34, 20
+  offset: 0, 0
+  index: -1

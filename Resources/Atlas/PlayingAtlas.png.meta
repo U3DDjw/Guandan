@@ -1,0 +1,2369 @@
+fileFormatVersion: 2
+guid: f320b973bbb9d734483a3edc39f61cf6
+timeCreated: 1510232820
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: beer_1
+    21300002: beer_2
+    21300004: beer_3
+    21300006: boom_1
+    21300008: boom_2
+    21300010: boom_3
+    21300012: boom_4
+    21300014: boom_5
+    21300016: boom_6
+    21300018: brick_1
+    21300020: brick_2
+    21300022: brick_3
+    21300024: brick_4
+    21300026: btn_beer
+    21300028: btn_black
+    21300030: btn_blue
+    21300032: btn_boom
+    21300034: btn_breakRoom
+    21300036: btn_brick
+    21300038: btn_egg
+    21300040: btn_flower
+    21300042: btn_green
+    21300044: btn_hui
+    21300046: btn_incense
+    21300048: btn_new_black
+    21300050: btn_new_green
+    21300052: btn_new_orange
+    21300054: btn_pk
+    21300056: btn_pk1
+    21300058: btn_pk_01
+    21300060: btn_pk_02
+    21300062: btn_pk_03
+    21300064: btn_pk_04
+    21300066: btn_pk_05
+    21300068: btn_pk_exit
+    21300070: btn_tomato
+    21300072: btn_wealth
+    21300074: btn_yellow
+    21300076: chatTextBg
+    21300078: checkbox7
+    21300080: checkbox8
+    21300082: disbanded_bg_9
+    21300084: egg_1
+    21300086: egg_2
+    21300088: egg_3
+    21300090: egg_4
+    21300092: expression10_1
+    21300094: expression10_2
+    21300096: expression10_3
+    21300098: expression11_1
+    21300100: expression11_2
+    21300102: expression11_3
+    21300104: expression12_1
+    21300106: expression12_2
+    21300108: expression1_1
+    21300110: expression1_2
+    21300112: expression2_2
+    21300114: expression2_3
+    21300116: expression3_1
+    21300118: expression3_2
+    21300120: expression4_1
+    21300122: expression4_2
+    21300124: expression4_3
+    21300126: expression6_1
+    21300128: expression6_2
+    21300130: expression6_3
+    21300132: expression7_1
+    21300134: expression7_2
+    21300136: expression7_3
+    21300138: expression7_4
+    21300140: expression8_1
+    21300142: expression8_2
+    21300144: expression8_3
+    21300146: expression8_4
+    21300148: expression9_1
+    21300150: expression9_2
+    21300152: expression9_3
+    21300154: expression9_4
+    21300156: expression9_5
+    21300158: expression9_6
+    21300160: expression_face_black.png
+    21300162: expression_face_normal
+    21300164: flower
+    21300166: flower_bling
+    21300168: flower_heart
+    21300170: font_number_1
+    21300172: font_number_2
+    21300174: font_number_3
+    21300176: font_number_4
+    21300178: font_number_5
+    21300180: gobackbtn
+    21300182: gongpai1
+    21300184: gongpai2
+    21300186: gongpai3
+    21300188: img_list.9
+    21300190: incense_1
+    21300192: incense_2
+    21300194: incense_3
+    21300196: incense_4
+    21300198: mingpai
+    21300200: news_expression
+    21300202: news_expression_1
+    21300204: news_expression_10
+    21300206: news_expression_11
+    21300208: news_expression_12
+    21300210: news_expression_2
+    21300212: news_expression_3
+    21300214: news_expression_4
+    21300216: news_expression_5
+    21300218: news_expression_6
+    21300220: news_expression_7
+    21300222: news_expression_8
+    21300224: news_expression_9
+    21300226: news_forward
+    21300228: news_img_bg1
+    21300230: news_img_bg2
+    21300232: news_line
+    21300234: news_phrase
+    21300236: news_title
+    21300238: pk_animation_bling
+    21300240: pk_bling
+    21300242: pk_btn
+    21300244: pk_btn_font1
+    21300246: pk_btn_font2
+    21300248: pk_btn_font3
+    21300250: pk_btn_font4
+    21300252: pk_btn_font5
+    21300254: pk_btn_font6
+    21300256: pk_btn_menu
+    21300258: pk_btn_refresh
+    21300260: pk_btn_set
+    21300262: pk_feiji
+    21300264: pk_font1
+    21300266: pk_font2
+    21300268: pk_font3
+    21300270: pk_font4
+    21300272: pk_jiantou
+    21300274: pk_jiefeng
+    21300276: pk_jingbao1
+    21300278: pk_jingbao2
+    21300280: pk_jishu
+    21300282: pk_kanggong
+    21300284: pk_liandui1
+    21300286: pk_liandui2
+    21300288: pk_news
+    21300290: pk_pai1
+    21300292: pk_pai2
+    21300294: pk_pai3
+    21300296: pk_pai4
+    21300298: pk_plane_smock1
+    21300300: pk_plane_smock2
+    21300302: pk_shunzi
+    21300304: pk_tishi_content
+    21300306: pk_tonghuashun
+    21300308: pk_xideo
+    21300310: pk_xideo_tiao
+    21300312: pk_zha
+    21300314: settlement_card
+    21300316: settlement_content
+    21300318: settlement_content_forBg
+    21300320: smock_1
+    21300322: smock_2
+    21300324: smock_3
+    21300326: smock_4
+    21300328: smock_5
+    21300330: smock_6
+    21300332: smoke_1
+    21300334: smoke_2
+    21300336: smoke_3
+    21300338: tomato_1
+    21300340: tomato_2
+    21300342: tomato_3
+    21300344: tomato_4
+    21300346: tomato_5
+    21300348: tomato_6
+    21300350: tomato_7
+    21300352: tomato_8
+    21300354: total_settlement_bling
+    21300356: total_settlement_chapter
+    21300358: total_settlement_ending_lose
+    21300360: total_settlement_ending_win
+    21300362: total_settlement_kuang
+    21300364: total_settlement_line
+    21300366: total_settlement_ribbon
+    21300368: total_settlement_shadow
+    21300370: voice_img_bg.9
+    21300372: wait_shadow
+    21300374: wealth_1
+    21300376: wealth_2
+    21300378: wealth_3
+    21300380: wealth_4
+    21300382: wealth_5
+    21300384: btn_bg
+    21300386: btn_blue_black
+    21300388: btn_pk_01_click
+    21300390: btn_pk_02_click
+    21300392: btn_pk_03_click
+    21300394: btn_pk_04_click
+    21300396: btn_pk_05_click
+    21300398: btn_pk_06
+    21300400: btn_pk_06_click
+    21300402: btn_pk_06_font1
+    21300404: btn_pk_06_font2
+    21300406: checkbox_danzhang_yes
+    21300408: dating_jishu_content
+    21300410: disbanded_agree
+    21300412: disbanded_font1
+    21300414: disbanded_font2
+    21300416: disbanded_refuse
+    21300418: disbanded_unselected
+    21300420: DismissRoom_Title
+    21300422: gameclean_1
+    21300424: gameclean_2
+    21300426: gameclean_3
+    21300428: gobackbtn_click
+    21300430: new_bg_down
+    21300432: new_btn1
+    21300434: new_btn2
+    21300436: new_btn3
+    21300438: new_connent
+    21300440: new_font_btn
+    21300442: new_voice_btn
+    21300444: news_expression_13
+    21300446: news_expression_14
+    21300448: news_phrase_content
+    21300450: news_phrase_content1
+    21300452: pk_btn_danzhang
+    21300454: pk_btn_font1_click
+    21300456: pk_btn_font2_click
+    21300458: pk_btn_font3_click
+    21300460: pk_btn_font4_black
+    21300462: pk_btn_font4_click
+    21300464: pk_btn_font5_click
+    21300466: pk_btn_foward1
+    21300468: pk_btn_foward1_click
+    21300470: pk_btn_foward2
+    21300472: pk_btn_foward2_click
+    21300474: pk_btn_foward_conntent
+    21300476: pk_btn_menu_click
+    21300478: pk_btn_refresh_click
+    21300480: pk_btn_set_click
+    21300482: pk_card
+    21300484: pk_clock
+    21300486: pk_feiji_0
+    21300488: pk_jifen_contect
+    21300490: pk_jishu1
+    21300492: pk_jishu2
+    21300494: pk_jishu_line
+    21300496: pk_liandui_0
+    21300498: pk_news_click
+    21300500: pk_select_btn
+    21300502: pk_xideo_click
+    21300504: playing_upbar
+    21300506: prop_0
+    21300508: prop_5
+    21300510: prop_15
+    21300512: prop_22
+    21300514: prop_38
+    21300516: prop_43
+    21300518: prop_58
+    21300520: prop_59
+    21300522: prop_109
+    21300524: prop_158
+    21300526: settlement_content_norBg
+    21300528: settlement_font1
+    21300530: settlement_font2
+    21300532: singleEndFont
+    21300534: tishi_font1
+    21300536: tishi_font2
+    21300538: title_setup
+    21300540: total_settlement_chapter 1
+    21300542: total_settlement_ending1
+    21300544: total_settlement_ending2
+    21300546: total_settlement_ending3
+    21300548: voice_voice
+    21300550: voice_voice_gang
+    21300552: voice_voice_line
+    21300554: pk_forward
+    21300556: pk_select_bg
+    21300558: pk_btn_font4_click
+    21300560: disbanded_font1_black
+    21300562: disbanded_font2_black
+    21300564: title_tishi
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: btn_bg
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 368
+        width: 110
+        height: 110
+      alignment: 9
+      pivot: {x: 0.5046729, y: 0.49532712}
+      border: {x: 20, y: 20, z: 20, w: 20}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: btn_blue_black
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 345
+        width: 164
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: btn_pk_05
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 368
+        width: 212
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: btn_pk_05_click
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 497
+        width: 212
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: btn_pk_06
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 632
+        width: 211
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: btn_pk_06_click
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 632
+        width: 212
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: btn_pk_06_font1
+      rect:
+        serializedVersion: 2
+        x: 1577
+        y: 185
+        width: 134
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: btn_pk_06_font2
+      rect:
+        serializedVersion: 2
+        x: 1442
+        y: 185
+        width: 134
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chatTextBg
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 85
+        width: 112
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 40, y: 0, z: 40, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: checkbox7
+      rect:
+        serializedVersion: 2
+        x: 1387
+        y: 234
+        width: 55
+        height: 52
+      alignment: 9
+      pivot: {x: 0.46774194, y: 0.516129}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: checkbox_danzhang_yes
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 318
+        width: 46
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: dating_jishu_content
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 590
+        width: 94
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: font_number_1
+      rect:
+        serializedVersion: 2
+        x: 1218
+        y: 550
+        width: 47
+        height: 66
+      alignment: 9
+      pivot: {x: 0.703125, y: 0.50769234}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: font_number_2
+      rect:
+        serializedVersion: 2
+        x: 1218
+        y: 626
+        width: 47
+        height: 66
+      alignment: 9
+      pivot: {x: 0.5232558, y: 0.52380955}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: font_number_3
+      rect:
+        serializedVersion: 2
+        x: 1218
+        y: 702
+        width: 47
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: font_number_4
+      rect:
+        serializedVersion: 2
+        x: 1156
+        y: 904
+        width: 47
+        height: 66
+      alignment: 9
+      pivot: {x: 0.5, y: 0.515625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: font_number_5
+      rect:
+        serializedVersion: 2
+        x: 1218
+        y: 474
+        width: 47
+        height: 66
+      alignment: 9
+      pivot: {x: 0.5, y: 0.52380955}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: gameclean_1
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 617
+        width: 77
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: gameclean_2
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 914
+        width: 77
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: gameclean_3
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 708
+        width: 77
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: gobackbtn
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 776
+        width: 58
+        height: 62
+      alignment: 9
+      pivot: {x: 0.5576923, y: 0.51666665}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: gobackbtn_click
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 845
+        width: 58
+        height: 62
+      alignment: 9
+      pivot: {x: 0.5576923, y: 0.51666665}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: gongpai1
+      rect:
+        serializedVersion: 2
+        x: 1287
+        y: 404
+        width: 53
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: gongpai3
+      rect:
+        serializedVersion: 2
+        x: 1204
+        y: 904
+        width: 56
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: mingpai
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 483
+        width: 138
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: new_bg_down
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 0
+        width: 453
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 30, y: 30, z: 30, w: 30}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: new_btn3
+      rect:
+        serializedVersion: 2
+        x: 1270
+        y: 234
+        width: 116
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: new_connent
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 169
+        width: 358
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 20, y: 20, z: 20, w: 20}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: new_font_btn
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 984
+        width: 44
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: new_voice_btn
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 377
+        width: 33
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: news_expression_1
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 617
+        width: 90
+        height: 90
+      alignment: 9
+      pivot: {x: 0.4935065, y: 0.44155845}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: news_expression_2
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 708
+        width: 90
+        height: 90
+      alignment: 9
+      pivot: {x: 0.5113636, y: 0.4883721}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: news_expression_3
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 799
+        width: 90
+        height: 90
+      alignment: 9
+      pivot: {x: 0.5, y: 0.45783132}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: news_expression_4
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 890
+        width: 90
+        height: 90
+      alignment: 9
+      pivot: {x: 0.4871795, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: news_expression_5
+      rect:
+        serializedVersion: 2
+        x: 1065
+        y: 99
+        width: 90
+        height: 90
+      alignment: 9
+      pivot: {x: 0.5113636, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: news_expression_6
+      rect:
+        serializedVersion: 2
+        x: 1065
+        y: 190
+        width: 90
+        height: 90
+      alignment: 9
+      pivot: {x: 0.49425286, y: 0.4691358}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: news_expression_7
+      rect:
+        serializedVersion: 2
+        x: 1065
+        y: 281
+        width: 90
+        height: 90
+      alignment: 9
+      pivot: {x: 0.4935065, y: 0.4691358}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: news_expression_8
+      rect:
+        serializedVersion: 2
+        x: 1065
+        y: 372
+        width: 90
+        height: 90
+      alignment: 9
+      pivot: {x: 0.47368422, y: 0.47560975}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: news_expression_9
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 364
+        width: 90
+        height: 90
+      alignment: 9
+      pivot: {x: 0.45, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: news_expression_10
+      rect:
+        serializedVersion: 2
+        x: 1065
+        y: 463
+        width: 90
+        height: 90
+      alignment: 9
+      pivot: {x: 0.47674417, y: 0.44}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: news_expression_11
+      rect:
+        serializedVersion: 2
+        x: 1065
+        y: 554
+        width: 90
+        height: 90
+      alignment: 9
+      pivot: {x: 0.48051947, y: 0.44444445}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: news_expression_12
+      rect:
+        serializedVersion: 2
+        x: 1065
+        y: 645
+        width: 90
+        height: 90
+      alignment: 9
+      pivot: {x: 0.44444445, y: 0.44444445}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: news_expression_13
+      rect:
+        serializedVersion: 2
+        x: 1065
+        y: 736
+        width: 90
+        height: 90
+      alignment: 9
+      pivot: {x: 0.5121951, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: news_expression_14
+      rect:
+        serializedVersion: 2
+        x: 1065
+        y: 827
+        width: 90
+        height: 90
+      alignment: 9
+      pivot: {x: 0.4520548, y: 0.44}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: news_forward
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 284
+        width: 28
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: news_phrase_content
+      rect:
+        serializedVersion: 2
+        x: 1405
+        y: 37
+        width: 112
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 20, y: 0, z: 40, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: news_phrase_content1
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 320
+        width: 28
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: news_title
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 707
+        width: 193
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pk_animation_bling
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 964
+        width: 63
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pk_bling
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 427
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pk_btn
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 636
+        width: 83
+        height: 85
+      alignment: 9
+      pivot: {x: 0.5, y: 0.51829267}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pk_btn_danzhang
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 778
+        width: 54
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pk_btn_font4_click
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 915
+        width: 180
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pk_btn_font6
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 455
+        width: 85
+        height: 42
+      alignment: 9
+      pivot: {x: 0.50595236, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pk_btn_foward1
+      rect:
+        serializedVersion: 2
+        x: 1204
+        y: 959
+        width: 53
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pk_btn_foward1_click
+      rect:
+        serializedVersion: 2
+        x: 1287
+        y: 346
+        width: 53
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pk_btn_foward2
+      rect:
+        serializedVersion: 2
+        x: 1287
+        y: 288
+        width: 53
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pk_btn_foward2_click
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 841
+        width: 53
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pk_btn_foward_conntent
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 364
+        width: 122
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 28, y: 0, z: 81, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pk_btn_set
+      rect:
+        serializedVersion: 2
+        x: 1156
+        y: 841
+        width: 58
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pk_btn_set_click
+      rect:
+        serializedVersion: 2
+        x: 1156
+        y: 778
+        width: 58
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pk_card
+      rect:
+        serializedVersion: 2
+        x: 1017
+        y: 554
+        width: 46
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pk_clock
+      rect:
+        serializedVersion: 2
+        x: 1156
+        y: 99
+        width: 95
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pk_feiji
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 99
+        width: 121
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pk_feiji_0
+      rect:
+        serializedVersion: 2
+        x: 1156
+        y: 234
+        width: 113
+        height: 57
+      alignment: 9
+      pivot: {x: 0.48165137, y: 0.4722222}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pk_font1
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 890
+        width: 72
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pk_font2
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 799
+        width: 72
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pk_font3
+      rect:
+        serializedVersion: 2
+        x: 1156
+        y: 400
+        width: 72
+        height: 73
+      alignment: 9
+      pivot: {x: 0.4852941, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pk_font4
+      rect:
+        serializedVersion: 2
+        x: 1065
+        y: 918
+        width: 72
+        height: 73
+      alignment: 9
+      pivot: {x: 0.45, y: 0.525}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pk_forward
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 239
+        width: 62
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pk_jiefeng
+      rect:
+        serializedVersion: 2
+        x: 1252
+        y: 99
+        width: 126
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pk_jifen_contect
+      rect:
+        serializedVersion: 2
+        x: 1934
+        y: 185
+        width: 104
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 30, y: 0, z: 30, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pk_jingbao1
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 507
+        width: 79
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pk_jishu1
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 206
+        width: 30
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pk_jishu2
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 245
+        width: 30
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pk_jishu_line
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 453
+        width: 2
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pk_kanggong
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 864
+        width: 200
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pk_liandui1
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 169
+        width: 67
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pk_liandui2
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 707
+        width: 66
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pk_liandui_0
+      rect:
+        serializedVersion: 2
+        x: 1930
+        y: 99
+        width: 113
+        height: 57
+      alignment: 9
+      pivot: {x: 0.44607842, y: 0.46226415}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pk_pai1
+      rect:
+        serializedVersion: 2
+        x: 1156
+        y: 702
+        width: 61
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pk_pai2
+      rect:
+        serializedVersion: 2
+        x: 1156
+        y: 626
+        width: 61
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pk_pai3
+      rect:
+        serializedVersion: 2
+        x: 1156
+        y: 474
+        width: 61
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pk_pai4
+      rect:
+        serializedVersion: 2
+        x: 1156
+        y: 550
+        width: 61
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pk_plane_smock1
+      rect:
+        serializedVersion: 2
+        x: 1712
+        y: 185
+        width: 110
+        height: 46
+      alignment: 9
+      pivot: {x: 0.43010753, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pk_plane_smock2
+      rect:
+        serializedVersion: 2
+        x: 1823
+        y: 185
+        width: 110
+        height: 46
+      alignment: 9
+      pivot: {x: 0.5445545, y: 0.5609756}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pk_select_btn
+      rect:
+        serializedVersion: 2
+        x: 1395
+        y: 0
+        width: 325
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pk_shunzi
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 554
+        width: 132
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pk_tonghuashun
+      rect:
+        serializedVersion: 2
+        x: 1065
+        y: 37
+        width: 187
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pk_xideo_tiao
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 147
+        width: 74
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pk_zha
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 416
+        width: 166
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: playing_upbar
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 85
+        width: 333
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: prop_0
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 368
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5203252, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: prop_5
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 507
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.496, y: 0.5405405}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: prop_15
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 765
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5042017, y: 0.503937}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: prop_22
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 894
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.47540984, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: prop_38
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 239
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.51724136, y: 0.5126051}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: prop_43
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 239
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.504, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: prop_109
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 239
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: prop_158
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 636
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.47058824, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: settlement_font1
+      rect:
+        serializedVersion: 2
+        x: 1156
+        y: 347
+        width: 102
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: singleEndFont
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 572
+        width: 200
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: smock_1
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 497
+        width: 115
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: smock_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 721
+        width: 180
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: smock_3
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 183
+        width: 218
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: smock_4
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 0
+        width: 218
+        height: 182
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: smock_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 206
+        width: 179
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: smock_6
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 497
+        width: 121
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: title_setup
+      rect:
+        serializedVersion: 2
+        x: 1156
+        y: 292
+        width: 102
+        height: 54
+      alignment: 9
+      pivot: {x: 0.4950495, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: total_settlement_chapter 1
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 982
+        width: 58
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: total_settlement_ending1
+      rect:
+        serializedVersion: 2
+        x: 1253
+        y: 37
+        width: 151
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: total_settlement_kuang
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 210
+        height: 205
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: voice_voice
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 549
+        width: 171
+        height: 171
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: voice_voice_gang
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 356
+        width: 25
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: voice_voice_line
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 377
+        width: 171
+        height: 171
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wait_shadow
+      rect:
+        serializedVersion: 2
+        x: 1065
+        y: 0
+        width: 329
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pk_select_bg
+      rect:
+        serializedVersion: 2
+        x: 1270
+        y: 288
+        width: 16
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 5, y: 10, z: 5, w: 10}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pk_btn_font1
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 69
+        width: 179
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pk_btn_font1_click
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 138
+        width: 179
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pk_btn_font2
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 845
+        width: 180
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pk_btn_font2_click
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 914
+        width: 180
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pk_btn_font3
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 276
+        width: 179
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pk_btn_font3_click
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 207
+        width: 179
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pk_btn_font4
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 776
+        width: 180
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pk_btn_font4_black
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 846
+        width: 180
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pk_btn_font4_click
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 777
+        width: 180
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pk_btn_font5
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 0
+        width: 180
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pk_btn_font5_click
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 707
+        width: 180
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pk_news_click
+      rect:
+        serializedVersion: 2
+        x: 1443
+        y: 234
+        width: 41
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pk_news
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 483
+        width: 41
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pk_xideo
+      rect:
+        serializedVersion: 2
+        x: 1156
+        y: 971
+        width: 41
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pk_xideo_click
+      rect:
+        serializedVersion: 2
+        x: 1485
+        y: 234
+        width: 41
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: btn_pk_01
+      rect:
+        serializedVersion: 2
+        x: 1518
+        y: 37
+        width: 142
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: btn_pk_01_click
+      rect:
+        serializedVersion: 2
+        x: 1299
+        y: 185
+        width: 142
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: btn_pk_02
+      rect:
+        serializedVersion: 2
+        x: 1156
+        y: 185
+        width: 142
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: btn_pk_02_click
+      rect:
+        serializedVersion: 2
+        x: 1787
+        y: 99
+        width: 142
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: btn_pk_03
+      rect:
+        serializedVersion: 2
+        x: 1644
+        y: 99
+        width: 142
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: btn_pk_03_click
+      rect:
+        serializedVersion: 2
+        x: 1501
+        y: 99
+        width: 142
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: btn_pk_04
+      rect:
+        serializedVersion: 2
+        x: 1661
+        y: 37
+        width: 142
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: btn_pk_04_click
+      rect:
+        serializedVersion: 2
+        x: 1804
+        y: 37
+        width: 142
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: disbanded_agree
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 765
+        width: 79
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: disbanded_font1
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 599
+        width: 73
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: disbanded_font2
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 844
+        width: 71
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: DismissRoom_Title
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 443
+        width: 191
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: disbanded_refuse
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 894
+        width: 79
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: disbanded_unselected
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 981
+        width: 86
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: disbanded_font1_black
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 722
+        width: 73
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: disbanded_font2_black
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 973
+        width: 71
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: tishi_font2
+      rect:
+        serializedVersion: 2
+        x: 1848
+        y: 0
+        width: 124
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: title_tishi
+      rect:
+        serializedVersion: 2
+        x: 1947
+        y: 37
+        width: 96
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: settlement_font2
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 984
+        width: 143
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: total_settlement_ending3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 982
+        width: 143
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: total_settlement_ending2
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 983
+        width: 142
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: tishi_font1
+      rect:
+        serializedVersion: 2
+        x: 1721
+        y: 0
+        width: 126
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

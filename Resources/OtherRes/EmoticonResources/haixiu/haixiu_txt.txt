@@ -1,0 +1,48 @@
+
+haixiu.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+by
+  rotate: false
+  xy: 2, 23
+  size: 147, 17
+  orig: 147, 17
+  offset: 0, 0
+  index: -1
+hy
+  rotate: false
+  xy: 178, 107
+  size: 153, 108
+  orig: 153, 108
+  offset: 0, 0
+  index: -1
+mm
+  rotate: false
+  xy: 333, 195
+  size: 108, 20
+  orig: 108, 20
+  offset: 0, 0
+  index: -1
+tou
+  rotate: false
+  xy: 2, 42
+  size: 174, 173
+  orig: 174, 173
+  offset: 0, 0
+  index: -1
+zui
+  rotate: false
+  xy: 2, 2
+  size: 44, 19
+  orig: 44, 19
+  offset: 0, 0
+  index: -1
+zy
+  rotate: false
+  xy: 178, 56
+  size: 114, 49
+  orig: 114, 49
+  offset: 0, 0
+  index: -1

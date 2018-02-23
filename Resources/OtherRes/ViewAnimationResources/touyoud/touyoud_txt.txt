@@ -1,0 +1,33 @@
+
+touyou.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+cibang
+  rotate: false
+  xy: 2, 2
+  size: 104, 125
+  orig: 104, 125
+  offset: 0, 0
+  index: -1
+settlement_light2
+  rotate: false
+  xy: 2, 242
+  size: 607, 593
+  orig: 607, 593
+  offset: 0, 0
+  index: -1
+sidai
+  rotate: false
+  xy: 2, 129
+  size: 291, 111
+  orig: 291, 111
+  offset: 0, 0
+  index: -1
+touyou
+  rotate: false
+  xy: 611, 754
+  size: 162, 81
+  orig: 162, 81
+  offset: 0, 0
+  index: -1

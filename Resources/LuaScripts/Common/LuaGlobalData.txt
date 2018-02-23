@@ -1,0 +1,260 @@
+﻿--CS.UnityEngine.Debug.Log('HotFix is GlobalData Updating...')
+
+LuaGlobalData={
+	-------- C# GlobalData.......
+	--string类型的
+	mVersion = "1.3.1",
+	mGameName = "好运掼蛋",
+	mHostId = "HY" 	,									-- 运营商ID
+	mHostFkId = "fk" 	,								-- 友盟中，房卡消耗记录（商品id）
+	
+	mStreamingAssetsXml = "StreamingAssets.xml",
+	
+	mAppId = "HY_NJ_GD"	,								--App Id
+	
+	
+	---------------数值类型的----------------
+	mCardLevelId = 15   ,          						 --专门为参谋牌的id值
+	
+	mGameBureauOverWaitTime = 5.0   ,    				 --小结算 ，小结算页面自动点击 等候时间
+	mLoadGameBreauOverWaitTime = 3.0   ,  				--最后出完牌等候小结算页面
+	mSameIpTotalTime = 120    ,           				 --SameIp总时间
+	mStartGameWaitTime = 2,
+	mReadyGameWaitTime = 5,
+	mAutoPlayGameWaitTime = 0.5,
+	
+	
+	mPlayerOwnCardCount = 27	,						--54 * 2 / 4	--两幅牌，每个人初始化的牌牌数
+	mCardTypeCount = 4 	,								--卡牌类型（4中花色）
+	mCardNumber = 18,
+	mRefuseCardNumId = 1	,							--不出 ，28专门为不出的idx
+	mRequestSpacingTime = 1	,							--出牌无回调，自动刷新
+	
+	mDismissRoomCDTime = 50		,						--解散房间cd时间
+	mDismissRoomAutoResultTime = 150	,			      --自动选择解散时间
+	
+	
+	mDatingNoticContentCellSizeX = 250	,				--大厅公告单个宽度
+	
+	mEachCardsCount = 72,								--4*18
+	mSingleCardWidth = 120,								--单张牌的宽度
+	mCardContainerWidth = 1140,							--横向最大宽
+	mSingelCardRateY = 48,								--调节牌的高度间隔
+	mLastSingelCardRateY = 28 ,							--调节剩余牌的高度间隔
+	mLastSingelCardWidth = 60, 							--调节剩余牌的高度间隔(与Small牌保持一致 / 4)
+	mPutOutCardRate = 1	,								--打出的牌的与原尺寸大小
+	mCardTypeTipRate = 0.8	,							--牌型提示中牌是原尺寸的大小
+	mCardTouchMoveY = 10, 								--点击牌震动幅度
+	mCardTouchTime = 0.3,							    --点击震动时间
+	mDropDragHeight = 150,								--拖拽状态中牌的高度值
+	mDragDrogTouchRate = 1	,							--拖动牌的灵敏度
+	---------------bool类型----------------
+	
+	
+	
+	------------------地址-----------------------
+	------------《远程地址》
+	WeChatShareUrl="http://open.3399hy.com/gamehp/hygd",
+	mTaskActivityHtmlUrl="https://open.3399hy.com/gametask/#!/playerTask/{0}/{1}",
+	
+	
+	-----------《本地地址》
+	mLoadItemTitlePath = "View/",
+	mLocalTexturePath = "TexturePic/",														--本地纹理的资源路劲
+	mLocalEmoticonPrefabPath = "Animation/EmoticonAnimation/",				--本地表情动画的预支体路径
+	mLocalPropPrefabPath = "Animation/PropAnimation/"	,					--本地道具动画的预支体路径
+	mLocalViewAnimationPath = "Animation/ViewAnimation/",						--界面的动画的路径
+	
+	--spine动画层级名
+	mAnimSortingLayer="SpineAnimLayer",
+	mAnimOrderIdLayer=1,
+	--<音频>
+	AudioNameWarning = "Warning",
+	AudioNameStartGame = "youxikaishi",
+	AudioNameOtherLeaveRoom = "tiren",
+	AudioNameClickBtn = "anniu",
+	AudioNameDaojishi = "daojishi",
+	AudioNameJoinRoomPlayer = "jinrufangjian",
+	AudioNameSortCard = "lipai",
+	AudioNameGameOverWin = "sng_winner",
+	AudioNameGameOverLose = "sng_loser",
+	AudioNameGameOverPingju = "lipai",
+	AudioNameTotalGameOverWin = "shengli",
+	AudioNameTotalGameOverLose = "shibai",
+	
+	
+	mAudioBuyao = "audio_buyao",
+	mAudioSingleTitle = "audio_",
+	mAudioDoublleTitle = "audio_d_",
+	
+	
+	-----------------------------非基本类型变量(方式和基本类型一样)---------------------------
+	mSelectCardToTargetPos=CS.UnityEngine.Vector3(0, 80, 0) ,
+	mSelectCardColor=CS.UnityEngine.Color(199 / 255, 0, 1, 1),
+	
+	-----------------------------方法----------------------------
+	--获取卡的名字
+	getCardName=function(self,id)
+		local cardCount=72  	--mEachCardsCount
+		if(id>cardCount) then
+			id=id-cardCount
+		end
+		local cardNum=18;		--mCardNumber  
+		local type=math.floor(id/cardNum)
+		local num=math.floor(id%cardNum)
+		return "card_"..type.."_"..num
+	end,
+	
+	--获取头游二游名称
+	getHeadCleanCpr=function(self,rank)
+		if(rank~=1 and rank~=2 and rank~=3)
+		then 
+		return ""
+		end
+		return "gameclean_"..rank
+	end,
+	
+	--获取音效播放路径
+	getAudioBasePathByStyle=function(self,style)
+		local audioPath="SoundMan/"
+	if( style==1 or style==3 )
+	then
+	audioPath ="SoundMan/"
+	elseif(style==2 or style==4)
+	then   
+	audioPath ="SoundWoman/"
+	else
+	end
+	return audioPath
+	end	,
+	--获取数组的方法--
+	--RenderTexturePaths
+	getRenderTexturePaths=function(self)
+		local mRenderTexturePaths={ 
+		"TexturePic/RenderTex/RT_UIDown",
+		"TexturePic/RenderTex/RT_UIUp",
+		"TexturePic/RenderTex/RT_UIWaitView"}
+		
+		return mRenderTexturePaths
+	end,
+	
+	--苹果 大厅公告
+	getDatingIosNoticArgs=function(self)
+		local noticOne=CS.MsgContainer.ArgsDatingNotic()
+	noticOne.path="TexturePic/iosdating_notice"
+	noticOne.isCanClick=false
+	
+	--[[	local noticTwo=CS.MsgContainer.ArgsDatingNotic()
+	noticTwo.path="TexturePic/iosdating_notice2"
+	noticTwo.isCanClick=true--]]
+	
+	-- -- -- --[[	local noticthree=cs.msgcontainer.argsdatingnotic()
+	-- -- -- noticthree.path="texturepic/notice_bg"
+	-- -- -- noticthree.iscanclick=true--]]
+	
+	noticArray={noticOne,noticTwo}
+	return noticArray
+	end,
+	
+	--安卓 大厅公告
+	getDatingNoticArgs=function(self)
+		local noticOne=CS.MsgContainer.ArgsDatingNotic()
+	noticOne.path="TexturePic/dating_notice"
+	noticOne.isCanClick=false
+	
+		local noticTwo=CS.MsgContainer.ArgsDatingNotic()
+	noticTwo.path="TexturePic/dating_notice2"
+	noticTwo.isCanClick=true
+	
+	-- -- -- --[[	local noticthree=cs.msgcontainer.argsdatingnotic()
+	-- -- -- noticthree.path="texturepic/notice_bg"
+	-- -- -- noticthree.iscanclick=true--]]
+	
+	noticArray={noticOne,noticTwo}
+	return noticArray
+	end,
+	goldFiledData=function(self)
+		local priList={100,600}
+		local advList={ 400, 2000 }
+		local highList= { 1000, 10000 }
+		local topList=  { 1000, 20000}
+		local listlistData={}
+		table.insert(listlistData,priList)
+		table.insert(listlistData,advList)
+		table.insert(listlistData,highList)
+		table.insert(listlistData,topList)
+		return listlistData
+	end,
+	--常用语--
+	getUsefulExpressions=function(self)
+		usefulArray={
+	"这牌打的真丑！",
+	"炸弹留着带回家吗？",
+	"太韶了",
+	"一手烂牌怎么破？",
+	"你牌技这么好，你小伙伴知道吗？",
+	"这牌，逃的舒服！",
+	"苍天啊，赐我一手好牌吧！",
+	"手抖了一下，出错牌了...",
+	"别急啊，让我看看牌",
+	"加个微信呗",
+	"皮皮虾，你走不走牌啊",
+	"乖乖，今天手气可以！",
+		}
+		return usefulArray
+	end,
+}
+--开发接口出来给Lua调用，参考
+local t = "sss"
+return {
+t = t,
+ mVersion = mVersion
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

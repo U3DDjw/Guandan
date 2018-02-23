@@ -1,0 +1,19 @@
+
+skeleton.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+caidao
+  rotate: false
+  xy: 156, 56
+  size: 115, 125
+  orig: 115, 125
+  offset: 0, 0
+  index: -1
+guangguiji
+  rotate: false
+  xy: 2, 2
+  size: 152, 179
+  orig: 152, 180
+  offset: 0, 0
+  index: -1

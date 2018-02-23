@@ -1,0 +1,30 @@
+local cu=CS.UnityEngine
+local uimanagers=CS.HaoyunFramework.UIManagers.Instance
+local uitype=CS.HaoyunFramework.UIType
+local eventTrigger=CS.EventTriggerListener
+function start()
+	eventTrigger.Get(dismissBtn).onClick=OnDismissClick     
+	eventTrigger.Get(inviteBtn).onClick=OnInviteClick                                      
+end
+
+function OnDismissClick()
+	print("点击了解散按钮")
+end
+
+function OnInviteClick()
+	print("点击了邀请按钮")
+end
+
+function SetData(roominfo,listPlayerInfo)
+	roomInfoText:GetComponent('Text').text=roominfo
+	local listPlayerGm={}
+	for i=1,playerContainer.transform.childCount do
+		table.insert(listPlayerGm,playerContainer.transform:GetChild(i-1))
+	end
+	
+	for i=1,#listPlayerGm do
+		local playerInfo2=listPlayerInfo[i]
+		listPlayerGm[i].transform:GetChild(0):GetComponent('Text').text=tostring(listPlayerInfo[i]['name'])
+		listPlayerGm[i].transform:GetChild(1):GetComponent('Text').text=tostring(listPlayerInfo[i]['id'])
+	end
+end

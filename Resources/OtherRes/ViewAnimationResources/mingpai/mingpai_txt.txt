@@ -1,0 +1,54 @@
+
+mingpai.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+mingpai
+  rotate: false
+  xy: 222, 2
+  size: 138, 70
+  orig: 138, 70
+  offset: 0, 0
+  index: -1
+smock_1
+  rotate: true
+  xy: 928, 139
+  size: 115, 92
+  orig: 115, 92
+  offset: 0, 0
+  index: -1
+smock_2
+  rotate: false
+  xy: 623, 112
+  size: 180, 142
+  orig: 180, 142
+  offset: 0, 0
+  index: -1
+smock_3
+  rotate: false
+  xy: 222, 74
+  size: 218, 180
+  orig: 218, 180
+  offset: 0, 0
+  index: -1
+smock_4
+  rotate: false
+  xy: 2, 72
+  size: 218, 182
+  orig: 218, 182
+  offset: 0, 0
+  index: -1
+smock_5
+  rotate: false
+  xy: 442, 84
+  size: 179, 170
+  orig: 179, 170
+  offset: 0, 0
+  index: -1
+smock_6
+  rotate: false
+  xy: 805, 120
+  size: 121, 134
+  orig: 121, 134
+  offset: 0, 0
+  index: -1

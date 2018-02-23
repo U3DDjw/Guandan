@@ -1,0 +1,853 @@
+fileFormatVersion: 2
+guid: db3862eca1f81534085900cf20dfed8d
+timeCreated: 1518333940
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: glod_bg
+    21300002: _0000_glod_icon1
+    21300004: _0001_glod_icon2
+    21300006: _0003_glod_icon4
+    21300008: glod_icon4
+    21300010: glod_icon1
+    21300012: _0002_glod_icon3
+    21300014: glod_icon3
+    21300016: glod_icon2
+    21300018: glod_siik2
+    21300020: glod_siik1
+    21300022: glod_siik3
+    21300024: glod_siik4
+    21300026: glod_bing2
+    21300028: glod_btn_gift
+    21300030: glod_bing4
+    21300032: glod_bing3
+    21300034: glod_bing1
+    21300036: glod_2
+    21300038: glod_5
+    21300040: glod_8
+    21300042: glod_font2
+    21300044: glod_font3
+    21300046: glod_font4
+    21300048: glod_font1
+    21300050: icon_lottery
+    21300052: glod_close
+    21300054: glod_connet
+    21300056: glod_font_ready
+    21300058: glod_ready
+    21300060: glod_btn_font2
+    21300062: glod_btn_font1
+    21300064: glod_btn_green_click
+    21300066: glod_btn_green
+    21300068: coin_btn_font1
+    21300070: coin_btn_font2
+    21300072: cardIdHead
+    21300074: cardIdContext
+    21300076: cardIdHead
+    21300078: CardIdChecked
+    21300080: cardIdHeadText
+    21300082: confirmBtn
+    21300084: CardIdBtn
+    21300086: cardIdBg
+    21300088: cardIdBtn
+    21300090: cardIdIcon
+    21300092: cardIdText
+    21300094: cardIdHeadBg
+    21300096: Sprite_40
+    21300098: Sprite_41
+    21300100: Sprite_42
+    21300102: cardIdLine
+    21300104: cardIdConfirmBtn
+    21300106: cardIdBg2
+    21300108: btn_pk_05
+    21300110: btn_pk_05_click
+    21300112: btn_pk_07_font
+    21300114: cardIdBtn
+    21300116: cardIdBtn
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: 1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 4096
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: iPhone
+    maxTextureSize: 4096
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 4096
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: glod_bg
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 268
+        height: 407
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 65, z: 0, w: 58}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: glod_icon1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 408
+        width: 238
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: _0000_glod_icon1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 645
+        width: 238
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: glod_icon4
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 408
+        width: 238
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: glod_icon2
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 645
+        width: 238
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: glod_icon3
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 0
+        width: 238
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: _0001_glod_icon2
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 237
+        width: 238
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: _0002_glod_icon3
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 0
+        width: 238
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: _0003_glod_icon4
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 474
+        width: 238
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: glod_siik3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 882
+        width: 316
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: glod_siik4
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 882
+        width: 316
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: glod_siik2
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 711
+        width: 316
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: glod_siik1
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 796
+        width: 316
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: cardIdBg
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 237
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 39, y: 42, z: 40, w: 42}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: cardIdHeadBg
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 881
+        width: 256
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: cardIdConfirmBtn
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 946
+        width: 256
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: cardIdHead
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 237
+        width: 256
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 107, y: 0, z: 102, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: glod_font_ready
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 967
+        width: 326
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: glod_btn_green
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 0
+        width: 212
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: glod_btn_green_click
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 69
+        width: 212
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: btn_pk_05_click
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 138
+        width: 211
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: btn_pk_05
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 138
+        width: 211
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: glod_btn_gift
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 0
+        width: 148
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: cardIdIcon
+      rect:
+        serializedVersion: 2
+        x: 1109
+        y: 0
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: confirmBtn
+      rect:
+        serializedVersion: 2
+        x: 1109
+        y: 65
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: cardIdBtn
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 302
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: glod_bing4
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 967
+        width: 211
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: glod_bing3
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 367
+        width: 210
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: glod_bing1
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 302
+        width: 210
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: glod_bing2
+      rect:
+        serializedVersion: 2
+        x: 974
+        y: 207
+        width: 210
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: glod_2
+      rect:
+        serializedVersion: 2
+        x: 974
+        y: 246
+        width: 242
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: glod_8
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 130
+        width: 242
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: glod_5
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 161
+        width: 242
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: icon_lottery
+      rect:
+        serializedVersion: 2
+        x: 1238
+        y: 0
+        width: 82
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: glod_close
+      rect:
+        serializedVersion: 2
+        x: 1321
+        y: 0
+        width: 86
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: btn_pk_07_font
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 366
+        width: 178
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: glod_font4
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 207
+        width: 162
+        height: 27
+      alignment: 9
+      pivot: {x: 0.5072332, y: 0.58679765}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: glod_font3
+      rect:
+        serializedVersion: 2
+        x: 1321
+        y: 81
+        width: 158
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: cardIdHeadText
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 89
+        width: 128
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: cardIdBtn
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 237
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: cardIdBg2
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 14, y: 14, z: 14, w: 14}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: cardIdBtn
+      rect:
+        serializedVersion: 2
+        x: 1473
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: cardIdText
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 406
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 26, y: 20, z: 17, w: 20}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: glod_ready
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 967
+        width: 83
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: glod_font2
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 192
+        width: 148
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: glod_connet
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 471
+        width: 122
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: glod_font1
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 406
+        width: 135
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: coin_btn_font1
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 434
+        width: 90
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: coin_btn_font2
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 504
+        width: 90
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: glod_btn_font2
+      rect:
+        serializedVersion: 2
+        x: 1238
+        y: 85
+        width: 80
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: glod_btn_font1
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 539
+        width: 80
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Sprite_42
+      rect:
+        serializedVersion: 2
+        x: 1319
+        y: 85
+        width: 1
+        height: 1
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Sprite_40
+      rect:
+        serializedVersion: 2
+        x: 1319
+        y: 87
+        width: 1
+        height: 1
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Sprite_41
+      rect:
+        serializedVersion: 2
+        x: 1319
+        y: 89
+        width: 1
+        height: 1
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,12 @@
+
+skeleton.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+banzhuan1
+  rotate: false
+  xy: 2, 2
+  size: 99, 107
+  orig: 128, 128
+  offset: 16, 10
+  index: -1

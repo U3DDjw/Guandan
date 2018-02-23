@@ -1,0 +1,33 @@
+
+skeleton.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fangka1
+  rotate: false
+  xy: 2, 37
+  size: 77, 89
+  orig: 134, 110
+  offset: 36, 19
+  index: -1
+fangka2
+  rotate: false
+  xy: 81, 43
+  size: 78, 83
+  orig: 134, 110
+  offset: 16, 25
+  index: -1
+fangka3
+  rotate: false
+  xy: 161, 50
+  size: 75, 76
+  orig: 134, 110
+  offset: 8, 21
+  index: -1
+yaoqingwenzi
+  rotate: false
+  xy: 2, 2
+  size: 98, 33
+  orig: 124, 34
+  offset: 11, 1
+  index: -1

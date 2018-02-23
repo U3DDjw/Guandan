@@ -1,0 +1,60 @@
+--[[
+itemContainerGM //储存item的父物体
+infoTypeGM //记录类型 房间明细/完结记录
+gameTypeGM //游戏类型 掼蛋/转蛋
+closeBtnGM //关闭按钮对象
+--]]
+local cu=CS.UnityEngine
+local uimanagers=CS.HaoyunFramework.UIManagers.Instance
+local uitype=CS.HaoyunFramework.UIType
+local eventTrigger=CS.EventTriggerListener
+	
+	function start()
+		local infoType=infoTypeGM:GetComponent('SelectType')
+		infoType.selectType=SelectType_InfoType
+		infoType:SetRoomType(1)
+		local gameType=gameTypeGM:GetComponent('SelectType')
+		gameType.selectType=SelectType_GameType
+		gameType:SetRoomType(1)
+		
+		InitPlayerInfoItem()
+		
+		eventTrigger.Get(closeBtnGM).onClick=OnCloseClick	
+	end
+	
+	function SelectType_InfoType(choose)
+		if(choose==1) then
+			print("选择了房间明细")
+		elseif(choose==2) then
+			print("选择了完结记录")
+		end
+	end
+	
+	function SelectType_GameType(choose)
+		if(choose==1) then
+			print("选择了转蛋")
+		elseif(choose==2) then
+			print("选择了掼蛋")
+		end
+	end
+	
+	function InitPlayerInfoItem()
+		local detailItem=uimanagers:GetSingleUI(uitype.CreateRoomDetailItem)
+		local itemContainer=itemContainerGM.transform
+		detailItem.transform:SetParent(itemContainer)
+		detailItem.transform.localScale=cu.Vector3.one
+		local behaviourScript=detailItem:GetComponent('LuaBehaviour')
+		local roominfo="lua加载出来的测试"
+		
+		local listPlayerInfo={}
+		for i=1,4 do
+		local playerInfo={name="名字1",id="id1"}
+		table.insert(listPlayerInfo,playerInfo)
+		end
+		
+		behaviourScript.LuaData.SetData(roominfo,listPlayerInfo)--lua与lua之间的调用不用【:】当做属性调用 所以用.
+	end
+
+	function OnCloseClick(gm)
+		uimanagers:DestroySingleUI(uitype.HasOpenRoomView)
+	end

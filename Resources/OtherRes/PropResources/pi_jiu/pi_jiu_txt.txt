@@ -1,0 +1,26 @@
+
+pijiu_tex.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+02
+  rotate: false
+  xy: 71, 2
+  size: 66, 77
+  orig: 128, 128
+  offset: 32, 22
+  index: -1
+03
+  rotate: false
+  xy: 2, 2
+  size: 67, 77
+  orig: 128, 128
+  offset: 31, 22
+  index: -1
+pijiu
+  rotate: false
+  xy: 139, 4
+  size: 66, 75
+  orig: 128, 128
+  offset: 32, 22
+  index: -1

@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: f7e649922d32bcd469d59889871e2c06
+timeCreated: 1505556763
+licenseType: Pro
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 100
+  forceTextureCase: 3
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: FZCuYuan-M03S
+  fontNames:
+  - Microsoft YaHei
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 33ac6e3d4828b9b45a0d67e44e1e5e62, type: 3}
+  customCharacters: "123456789%\u6B63\u5728\u4E0B\u8F7D\u8865\u4E01\u4E2D\uFF0C\u8FDB\u5EA6/\u8BF7\u7A0D\u540E
+    \u521D\u59CB\u5316.abcdefghijklmnopqrstuvwxyz\u603B\u51710\u4E2A\u5305\u7B2C\u8D44\u6E90KBM\u9996\u6B21\u52A0\u901F\u6162"
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

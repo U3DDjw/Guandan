@@ -1,0 +1,24 @@
+
+local ue = CS.UnityEngine
+
+--列表项
+Item = {
+	--Awake事件
+	Awake = function (data)
+		data.button:GetComponent("Button").onClick:AddListener(function()
+			Panel.SelectItem(data.panel, data._num)
+		end)
+	end;
+
+	--初始化
+	Init = function (data, panel, num)
+		data.panel = panel	--保存父窗口引用
+		data._num = num --保存编号
+		data.num:GetComponent("Text").text = num
+	end;
+
+	--设置选中状态
+	SetLight = function (data, light)
+		data.light:SetActive(light)
+	end;
+}

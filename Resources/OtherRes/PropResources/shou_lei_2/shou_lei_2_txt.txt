@@ -1,0 +1,69 @@
+
+shoulei2.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+img/danteng3_04
+  rotate: false
+  xy: 2, 109
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+img/danteng3_06
+  rotate: false
+  xy: 260, 109
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+img/danteng3_07
+  rotate: false
+  xy: 518, 109
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+img/danteng3_09
+  rotate: false
+  xy: 776, 109
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+img/danteng3_11
+  rotate: false
+  xy: 1034, 109
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+img/danteng3_13
+  rotate: false
+  xy: 1292, 109
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+img/danteng3_15
+  rotate: false
+  xy: 1550, 109
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+img/shoul
+  rotate: false
+  xy: 1808, 285
+  size: 68, 80
+  orig: 68, 80
+  offset: 0, 0
+  index: -1
+img/zhadan
+  rotate: false
+  xy: 2, 2
+  size: 109, 105
+  orig: 109, 105
+  offset: 0, 0
+  index: -1

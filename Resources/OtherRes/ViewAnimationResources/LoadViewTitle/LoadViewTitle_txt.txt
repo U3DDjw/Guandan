@@ -1,0 +1,26 @@
+
+title.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ji
+  rotate: false
+  xy: 755, 68
+  size: 151, 175
+  orig: 151, 175
+  offset: 0, 0
+  index: -1
+logo
+  rotate: false
+  xy: 2, 61
+  size: 447, 182
+  orig: 447, 182
+  offset: 0, 0
+  index: -1
+pai
+  rotate: true
+  xy: 451, 2
+  size: 241, 302
+  orig: 241, 302
+  offset: 0, 0
+  index: -1

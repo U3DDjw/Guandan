@@ -1,0 +1,69 @@
+--xlua是build的，脚本放在xlua中 所有lua脚本都可以调用
+--local yield_return=(require 'xlua.LuaCallCsCoroutineHelper').yield_return 
+
+--用处： 1.调用C#的协程 2.当做C#中yield使用
+local util=require 'xlua.util'
+local gameobject = CS.UnityEngine.GameObject('CsCoroutine')
+CS.UnityEngine.Object.DontDestroyOnLoad(gameobject)
+local cs_coroutine_runner = gameobject:AddComponent(typeof(CS.CsCoroutine))
+local function async_yield_return(to_yield, cb)
+    cs_coroutine_runner:YieldAndCallback(to_yield, cb)
+end
+local yield_return = util.async_to_sync(async_yield_return)
+
+
+
+local eventListener=CS.EventTriggerListener
+local CU=CS.UnityEngine
+local globalData=CS.MsgContainer.GlobalData
+local serverUrlTitle=CS.MsgContainer.ServerUrlTitle
+local playerInfo=CS.PlayerInfo.Instance
+local haoYunFrame=CS.HaoyunFramework
+
+local canvas=nil
+
+function  start()
+	eventListener.Get(self.gameObject).onClick=OnBtnClick
+	canvas=CU.GameObject.Find(globalData.mUIRootName)
+end
+
+function OnBtnClick(g)   
+		Request()	
+		InitHtml()
+end
+
+function Request()
+		local form= CU.WWWForm()
+		local pid=playerInfo.mPlayerPid
+		print("玩家pid=",uint64.tostring(pid))
+        form:AddField("pid",uint64.tostring(pid)) 
+        form:AddField("sig", "sig")
+        local url = globalData.mConstBaseServerUrl .. serverUrlTitle.Url_ActivityInfo
+		
+		local sendCo=coroutine.create(function()
+		 yield_return(globalData.SendPost(url,form,CallBackFun))
+		end)
+		coroutine.resume(sendCo)
+end
+
+function CallBackFun(www)
+	if (www.text~=nil) then
+		print("lua>>www.text=",www.text)
+		 -- local info = CS.JsonManager.GetActivityInfo(www.text)
+	else
+		haoYunFrame.UIManagers.Instance:EnqueueTip("获取失败")
+	end
+end
+
+function InitHtml()
+	print("初始化html")
+	local taskView = haoYunFrame.UIManagers.Instance:GetSingleUI(haoYunFrame.UIType.TaskView)
+    taskView.transform:SetParent(self.transform.parent.parent)
+    taskView.transform.localPosition = CU.Vector3.zero
+end
+
+
+
+
+
+

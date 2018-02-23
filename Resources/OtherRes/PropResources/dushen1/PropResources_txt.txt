@@ -1,0 +1,12 @@
+
+skeleton.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dushen
+  rotate: true
+  xy: 2, 2
+  size: 115, 126
+  orig: 128, 128
+  offset: 10, 1
+  index: -1

@@ -1,0 +1,181 @@
+﻿--用处： 1.调用C#的协程 2.当做C#中yield使用   c# 代码中写好的通用方法
+
+local util = require 'common.util'
+local gameobject = CS.UnityEngine.GameObject('CsCoroutine')
+CS.UnityEngine.Object.DontDestroyOnLoad(gameobject)
+local cs_coroutine_runner = gameobject:AddComponent(typeof(CS.CsCoroutine))
+
+local function async_yield_return(to_yield, cb)
+    cs_coroutine_runner:YieldAndCallback(to_yield, cb)
+end
+
+yield_return = util.async_to_sync(async_yield_return)
+
+
+
+local eventListener=CS.EventTriggerListener
+local CU=CS.UnityEngine
+local globalData=CS.MsgContainer.GlobalData
+local serverUrlTitle=CS.MsgContainer.ServerUrlTitle
+local playerInfo=CS.PlayerInfo.Instance
+local haoYunFrame=CS.HaoyunFramework
+local audioManager=CS.AudioManager.Instance
+--LuaBehavior 注射的参数
+--[[GameObject closeBtn; 
+    UniWebView webViewGm;
+    GameObject anim;--]]
+local uniWebView=nil
+local canvas=nil
+local url="https://open.3399hy.com/gametask/#!/playerTask/%s/%s"
+
+local isWebLoadEnd = false
+local isAnimEnd = false
+
+local isCanMove = false
+local percent = 0.0
+local targetPos=CU.Vector3.zero
+	
+function  start()
+	local sendurl=string.format(url,globalData.mAppId,playerInfo.mPlayerPid)
+	debug(sendurl)
+	uniWebView=webViewGm:GetComponent('UniWebView')
+    SetData(sendurl)
+	
+	eventListener.Get(closeBtn).onClick=OnCloseClick;
+	InitTween()
+end
+function update()
+	if (isCanMove) then
+            if (percent < 1) then
+                percent =percent+ CU.Time.deltaTime
+                closeBtn.transform.localPosition = CU.Vector3.Lerp(closeBtn.transform.localPosition, targetPos, percent)
+            else
+				percent = 0 
+                isCanMove = false
+				isAnimEnd=true
+				if (isWebLoadEnd) then
+					CU.Debug.Log("动画加载完毕，网页加载完毕")
+					ShowWebView()
+					
+				end
+			end
+    end
+end
+
+function ShowWebView()
+	uniWebView.alpha = 1
+    uniWebView:Show(true, CS.UniWebViewTransitionEdge.None, 0.1)
+end
+
+function InitTween()
+	local animTime=CS.TweenManager.Instance:GetAnimatorTime(anim)
+	
+	--移动的动画的控制  备用  
+	--[[local moveCo=coroutine.create(
+		function()
+			while(percent<1) do
+				yield_return(CU.WaitForSeconds(CU.Time.deltaTime))
+				print(percent)
+		        percent =percent+ CU.Time.deltaTime
+                closeBtn.transform.localPosition = CU.Vector3.Lerp(closeBtn.transform.localPosition, targetPos, percent)
+			end
+			percent = 0
+			--isCanMove = false
+		end
+				)--]]	
+	
+	--所有动画的时间的控制
+	local closeBtnCo=coroutine.create(
+		function()
+			yield_return(CU.WaitForSeconds(animTime-1.5))
+			print("等待时间",animTime-0.5)
+			targetPos=closeBtn.transform.localPosition-CU.Vector3.up*190
+			isCanMove=true
+			--未使用原因 这里面的协成只能在协成内挂起 ，如果动画没播放完毕就销毁了view。就会报错
+			--coroutine.resume(moveCo)
+			end
+		)
+		
+	coroutine.resume(closeBtnCo)
+end
+
+function SetData(urlData)
+	debug("设置webView信息")
+	uniWebView.url = urlData
+    local wAndH = globalData.GetRealWAndH(CU.Vector2(1920, 1080), CU.Vector2(100, 120))
+	debug("wAndH" , wAndH)
+	uniWebView.alpha=0
+	uniWebView:SetBackgroundColor(CU.Color(0,0,0,0))
+	uniWebView.autoShowWhenLoadComplete=false
+	uniWebView.backButtonEnable=false
+	uniWebView.insets=CS.UniWebViewEdgeInsets(math.floor(wAndH.y),math.floor(wAndH.x),math.floor(wAndH.y),math.floor(wAndH.x))
+	uniWebView:OnReceivedMessage('+',Event_ReceivedMessage)
+	uniWebView:OnLoadComplete('+',Event_LoadComplete)
+end
+
+function Event_LoadComplete(webView, success, errorMessage)
+	debug("网页加载完毕")
+	if success then
+		
+		isWebLoadEnd=true
+		if isAnimEnd then
+			debug("网页加载完毕，动画加载完毕")
+			ShowWebView()
+		end
+	else
+		print("加载失败原因：",errorMessage)
+		uniWebView:Reload()
+	end
+end
+
+
+function Event_ReceivedMessage(webView,message)
+	debug("WebView.Event_ReceivedMessage:调用js的方法")
+	 if (message.path == "close") then
+            OnCloseClick(nil)
+        elseif (message.path == "createRoom") then
+            CreateRoom()
+            OnCloseClick(nil)
+        elseif (message.path == "share") then
+            Share()
+		end
+end
+
+function OnCloseClick(g)   
+	 print("销毁活动面板")
+	 audioManager:PlayClickBtnAudio()
+	 haoYunFrame.UIManagers.Instance:DestroySingleUI(haoYunFrame.UIType.TaskView)
+end
+
+
+
+function CreateRoom()
+	debug("创建房间")
+	if(CS.RoomInfo.Instance.mIsExistWaitGameView) then
+		CS.RoomInfo.Instance:ExistWaitRoom()
+	else
+		local createRoomContext=haoYunFrame.BaseContext()
+		createRoomContext.ViewType=haoYunFrame.UIType.CreateRoomView
+		haoYunFrame.ContextManager.Instance:Push(createRoomContext)
+	end 
+end
+
+function Share()
+	debug("调用分享的方法")
+	audioManager:PlayClickBtnAudio()
+	if(CU.Application.platform~=CU.RuntimePlatform.WindowsEditor) then 
+		local playerId = playerInfo.mPlayerData.pid
+        local playerName = playerInfo.mPlayerData.name
+        local title = globalData.mGameName .." 新手任务领现金红包"
+        local descripition = playerName .. " 邀请你一起来掼蛋!\r\n绑定ID: " .. playerId
+        local url = globalData.WeChatShareUrl .. "?pid=" .. playerId
+        CS.SDKManager.Instance:WeChatShareLink(title, descripition, url)
+	end
+end
+
+
+
+function debug(info)
+	CU.Debug.Log(info)
+end
+

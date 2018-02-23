@@ -1,0 +1,40 @@
+
+skeleton.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+caishen-xin
+  rotate: false
+  xy: 2, 2
+  size: 216, 229
+  orig: 216, 263
+  offset: 0, 13
+  index: -1
+dao
+  rotate: false
+  xy: 330, 136
+  size: 59, 95
+  orig: 60, 95
+  offset: 0, 0
+  index: -1
+du
+  rotate: false
+  xy: 391, 164
+  size: 60, 67
+  orig: 60, 67
+  offset: 0, 0
+  index: -1
+liangdian
+  rotate: false
+  xy: 220, 118
+  size: 108, 113
+  orig: 108, 113
+  offset: 0, 0
+  index: -1
+shen
+  rotate: false
+  xy: 220, 21
+  size: 60, 95
+  orig: 60, 95
+  offset: 0, 0
+  index: -1

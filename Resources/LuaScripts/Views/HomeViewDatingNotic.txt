@@ -1,0 +1,161 @@
+﻿--参考demo，制作新的View 参考详细用例 及 相关常用语法
+--1) 挂载click
+--2) 本地消息机制传输
+
+
+local CU = CS.UnityEngine
+
+--noticTexture 					实现公告纹理的轮换,纹理个数根据这个生成
+--noticSlider
+--noticPolocalContainer 				大厅公告点的容器
+  local  values ={}			-- new List<local>()--每个公告对应的值	
+  local  listNotic ={} 		--new List<RawImage>()--纹理对象列表
+  local  listPoint ={}		-- new List<GameObject>()--大厅公告数量显示的点 备用
+local EventTrigger = CS.EventTriggerListener
+local function getTableCount(list)
+	local count=0
+	for i,v in pairs(list) do   --曾报错原因 i给初始值了 ^-^
+		count=count+1
+	end
+		return count
+	end
+	
+function start()	
+	noticSlider:GetComponent("Scrollbar").onValueChanged:AddListener(OnNoticSliderValueChange)
+	InItDaTingNoticData()
+end
+
+---------------初始化大厅的公告数据--------------
+function InItDaTingNoticData()
+	    --初始化纹理图片列表
+        local listTexs ={}
+		print("纹理初始化:")		  
+        local args = CS.MsgContainer.GlobalData.mDatingNoticArgs() --该tab仍然是c#中list，所以用下标0开始计算
+		print(args.Length)
+		print("args[0]"..args[0].path)		
+		for argsIndex=0,args.Length-1 do
+			
+			local datingNotic=CS.LoadResourcesHelper.Instance:LoadTexture(args[argsIndex].path)
+			if(datingNotic~=nil) then
+			 table.insert(listTexs,datingNotic)
+			end
+		end
+		
+		local texsCount= getTableCount(listTexs)  --因为这个listTexs是Lua中的table所以用下标1开始
+		print("texsCount:"..texsCount)
+		--纹理列表处理
+		for tCount=1,texsCount do
+			if(tCount==1) then
+				 noticTexture.transform:GetComponent("RawImage").texture = listTexs[1]											 
+				if (args[tCount-1].isCanClick==ture) then
+					noticTexture.transform:GetComponent("Button").enabled = true
+					noticTexture.transform:GetComponent("Button").onClick:AddListener(OnShareClick)
+					print("---:"..(tCount-1))		
+				end
+				table.insert(listNotic,noticTexture.transform)
+			else
+				local gridGm = CU.GameObject.Instantiate(noticTexture.gameObject).transform
+				gridGm:SetParent(noticTexture.transform.parent)
+				gridGm.localScale = CU.Vector3.one
+				gridGm:GetComponent("RawImage").texture = listTexs[tCount]
+				gridGm.localPosition =CU.Vector3(250 * tCount, 0, 0)
+				if (args[tCount-1].isCanClick==true) then
+					gridGm.transform:GetComponent("Button").enabled = true
+					gridGm.transform:GetComponent("Button").onClick:AddListener(OnShareClick)
+					print("---:"..(tCount-1))
+			    end
+				table.insert(listNotic,gridGm)
+			end--]]
+		end --for  循环结束	
+	CreatePoint(texsCount)
+	InitValues()      
+end
+
+function CreatePoint(datingNoticNum)
+        local gm = noticPointContainer.transform:GetChild(0).gameObject
+       if (datingNoticNum == 1) then  
+			local scrollRect=noticSlider.transform.parent:GetComponent("ScrollRect")
+			scrollRect.horizontal=false
+            gm:SetActive(true)
+			table.insert(listPoint,gm)			 
+        else
+            local leftMax = CU.Vector3.zero
+			
+            if (datingNoticNum % 2 == 0) then
+                leftMax = gm.transform.localPosition + CU.Vector3(-datingNoticNum / 2 * 15 + 7.5, 0, 0)
+            else
+                leftMax = gm.transform.localPosition + CU.Vector3(-math.floor(datingNoticNum / 2) * 15, 0, 0)
+            end
+			
+			local dNum=0
+            while( dNum<datingNoticNum ) do     
+                local newPolocal =CU.GameObject.Instantiate(gm)  --静态方法
+                newPolocal.transform:SetParent(gm.transform.parent)
+                newPolocal.transform.localScale = CU.Vector3.one
+                newPolocal.transform.localPosition = leftMax + CU.Vector3(dNum * 15, 0, 0)
+                newPolocal:SetActive(true)
+				table.insert(listPoint,newPolocal)
+				dNum=dNum+1
+            end
+        end
+		print("点初始完毕")
+        OnNoticSliderValueChange(0)
+    end
+	
+	--创建值数据
+function InitValues()
+        local res = getTableCount(listNotic)-1
+		print("res:"..res)
+        if (res ~= 0) then 
+			local factor = 1 / res
+			print("factor"..factor)
+			local  nowValue = 0
+			table.insert(values,0)
+	
+			while (nowValue<(1-factor/2)) do
+				nowValue = nowValue+ factor   --这个写在了上面 死循环 奔溃
+				table.insert(values,nowValue)
+			end
+				table.insert(values,1)
+		end
+    end
+	--方法：大厅slider值变化
+function OnNoticSliderValueChange(value)
+        local noticCount = getTableCount(listNotic)
+        if (noticCount == 0) then
+			return nil
+		end
+		
+        local sliderValue = noticSlider:GetComponent("Scrollbar").value --获取组件才能获取值
+		local factorNotic=0--每次叠加的因子值
+		if(noticCount==1) then
+			factorNotic=1
+		else
+			factorNotic=1/(noticCount-1)
+		end
+----------遍历大厅的点
+        for i=0,getTableCount(listPoint)-1 do   
+			--factor/3范围差
+			local isInMin=sliderValue > (i - 1) * factorNotic + factorNotic / 3
+			local isInMax=sliderValue < (i + 1) * factorNotic - factorNotic / 3
+			local isShow = isInMin and isInMax 
+			
+			if(isShow==true) then
+				listPoint[i+1]:GetComponent("Image").color=CU.Color(1, 1, 1, 1)
+			else
+				listPoint[i+1]:GetComponent("Image").color=CU.Color(1, 1, 1, 0.5)
+			end
+		end 
+end	
+
+---方法	：分享
+function OnShareClick()
+        CU.Debug.Log("分享链接 onClick")
+        CS.AudioManager.Instance:PlayClickBtnAudio()
+        if (CU.Application.platform == CU.RuntimePlatform.WindowsEditor) then
+			return nil
+		end
+        CS.SDKManager.Instance:WeChatShareNativeImage()
+		
+		 CU.Debug.Log("分享完成")
+    end

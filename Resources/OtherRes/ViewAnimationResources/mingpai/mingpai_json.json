@@ -1,0 +1,86 @@
+{
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root", "length": 60, "rotation": 89.54 },
+	{ "name": "bone2", "parent": "root", "length": 16.89, "x": 0.64, "y": -8.99, "rotation": 95.89 }
+],
+"slots": [
+	{ "name": "mingpai", "bone": "bone2", "attachment": "mingpai" },
+	{ "name": "smock_1", "bone": "bone", "attachment": "smock_1" }
+],
+"skins": {
+	"default": {
+		"mingpai": {
+			"mingpai": { "x": 19.94, "y": 0.35, "rotation": -95.89, "width": 138, "height": 70 }
+		},
+		"smock_1": {
+			"smock_1": { "x": 25.19, "y": 0.23, "rotation": -89.54, "width": 115, "height": 92 },
+			"smock_2": { "rotation": -89.54, "width": 180, "height": 142 },
+			"smock_3": { "rotation": -89.54, "width": 218, "height": 180 },
+			"smock_4": { "rotation": -89.54, "width": 218, "height": 182 },
+			"smock_5": { "rotation": -89.54, "width": 179, "height": 170 },
+			"smock_6": { "rotation": -89.54, "width": 121, "height": 134 }
+		}
+	}
+},
+"animations": {
+	"baozha": {
+		"bones": {
+			"bone2": {
+				"translate": [
+					{ "time": 0, "x": 3.6, "y": -11.39 }
+				]
+			}
+		},
+		"slots": {
+			"mingpai": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"smock_1": {
+				"attachment": [
+					{ "time": 0, "name": "smock_1" },
+					{ "time": 0.1, "name": "smock_2" },
+					{ "time": 0.2, "name": "smock_3" },
+					{ "time": 0.3, "name": "smock_4" },
+					{ "time": 0.4, "name": "smock_5" },
+					{ "time": 0.5, "name": "smock_6" }
+				],
+				"color": [
+					{ "time": 0.5, "color": "ffffffff" },
+					{ "time": 0.6, "color": "ffffff00" }
+				]
+			}
+		}
+	},
+	"mingpai": {
+		"bones": {
+			"bone2": {
+				"translate": [
+					{ "time": 0, "x": 3.6, "y": -11.39 }
+				]
+			}
+		},
+		"slots": {
+			"mingpai": {
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.1666, "color": "ffffff00" },
+					{ "time": 0.3, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 1, "color": "ffffffff" },
+					{ "time": 1.1, "color": "ffffff00" }
+				]
+			},
+			"smock_1": {
+				"attachment": [
+					{ "time": 0, "name": "smock_1" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			}
+		}
+	}
+}
+}

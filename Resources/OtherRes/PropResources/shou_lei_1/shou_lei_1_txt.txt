@@ -1,0 +1,13 @@
+
+shoulei1.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+img/shoul
+  rotate: false
+  xy: 2, 2
+  size: 68, 80
+  orig: 68, 80
+  offset: 0, 0
+  index: -1

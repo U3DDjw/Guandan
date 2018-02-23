@@ -1,0 +1,16 @@
+CS.UnityEngine.Debug.Log('this is djw hotfixTest')
+--跟新某脚本中的某方法
+   xlua.hotfix(CS.UIHomeView, 'TestHotFixInHomeView', function(self)
+                  
+                         print("this is lua Update ...HomeView")
+                    --local go =CS.UnityEngine.Resources.Load('View/TestHotView')
+					--local go = CS.HaoyunFramework.UIManagers.Instance:GetSingleUIByPath('View/TestHotView')
+					--local new_uitype = CS.HaoyunFramework.UIType('View/TestHotView')
+					
+					--local go = CS.HaoyunFramework.UIManagers.Instance:GetSingleUI(new_uitype)
+					--local go = CS.HaoyunFramework.ContextManager.Instance:Push(new_uitype)
+					--rint("_UIDic.Count"..CS.HaoyunFramework.UIManagers.Instance._UIDic.Count)
+					--CS.UnityEngine.Debug.Log("Lua instantiate :"..go.name)
+					--local item = CS.UnityEngine.Object.Instantiate(go)
+					--item.transform.parent = self.transform
+                end)

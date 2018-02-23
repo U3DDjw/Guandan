@@ -1,0 +1,26 @@
+
+skeleton.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bangdinglihe
+  rotate: false
+  xy: 2, 2
+  size: 107, 102
+  orig: 134, 110
+  offset: 12, 8
+  index: -1
+bangdingwenzi
+  rotate: false
+  xy: 111, 71
+  size: 98, 33
+  orig: 124, 34
+  offset: 10, 0
+  index: -1
+shanguang
+  rotate: false
+  xy: 111, 14
+  size: 54, 55
+  orig: 62, 64
+  offset: 4, 5
+  index: -1

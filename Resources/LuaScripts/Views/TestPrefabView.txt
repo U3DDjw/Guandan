@@ -1,0 +1,40 @@
+--参考demo，制作新的View 参考详细用例 及 相关常用语法
+--1) 挂载click
+--2) 本地消息机制传
+
+local speed = 10
+
+local CU = CS.UnityEngine
+local Notic =CS.DNotificationCenterManager.NotificationCenter.Instance()
+local EventTrigger = CS.EventTriggerListener
+local NetInstance = CS.Net.NetManager.GetInstance()
+
+function start()
+	print("lua start.www..") 
+	--self:GetComponent("Button").onClick:AddListener(OnBtnTestClick)   原生方法
+	EventTrigger.Get(Btn).onClick = OnBtnTestClick   -- 封装过的方法
+end
+
+
+
+--按钮点击事件
+function OnBtnTestClick(g)
+local homeViewDating = require 'Views.HomeViewDatingNotic'
+	--print("clicked, you input is  "..Name:GetComponent("Text").text)
+		--Name:GetComponent("Text").text = 
+		homeViewDating.onLuaTestClick(1) --调用另外一个View的方法
+end
+
+--本地消息机制接收消息
+function LocalUpdateTest(e)
+	print("this is TestHotView call back")	
+	print(e.param.testName)
+end
+
+
+
+
+
+function ondestroy()
+    print("lua destroy")
+end

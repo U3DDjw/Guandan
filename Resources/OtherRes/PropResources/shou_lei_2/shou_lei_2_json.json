@@ -1,0 +1,232 @@
+{
+  "skeleton": {
+    "hash": "v5GXKofktQDKhSKFOVjL/6H4PeQ",
+    "spine": "2.1.27",
+    "width": 389.43,
+    "height": 256.09,
+    "images": ""
+  },
+  "bones": [
+    { "name": "root" },
+    {
+      "name": "bone",
+      "parent": "root",
+      "length": 143.09,
+      "x": -7,
+      "y": -4.5,
+      "rotation": -178.64
+    },
+    {
+      "name": "bone2",
+      "parent": "root",
+      "color": "9b9b9b00"
+    },
+    {
+      "name": "img/danteng3_01",
+      "parent": "root",
+      "length": 248.68,
+      "x": 192.13,
+      "y": -40.3,
+      "rotation": -0.45
+    }
+  ],
+  "slots": [
+    {
+      "name": "img/danteng3_01",
+      "bone": "bone2",
+      "attachment": "img/zhadan"
+    },
+    {
+      "name": "img/shoul",
+      "bone": "bone"
+    },
+    {
+      "name": "img/danteng3_04",
+      "bone": "img/danteng3_01",
+      "attachment": "img/danteng3_04",
+      "blend": "screen"
+    }
+  ],
+  "skins": {
+    "default": {
+      "img/danteng3_01": {
+        "img/zhadan": {
+          "x": -7,
+          "y": -4.5,
+          "width": 109,
+          "height": 105
+        }
+      },
+      "img/danteng3_04": {
+        "img/danteng3_04": {
+          "x": 7.45,
+          "y": 40.35,
+          "rotation": 0.45,
+          "width": 256,
+          "height": 256
+        },
+        "img/danteng3_06": {
+          "x": 7.45,
+          "y": 40.35,
+          "rotation": 0.45,
+          "width": 256,
+          "height": 256
+        },
+        "img/danteng3_07": {
+          "x": 7.45,
+          "y": 40.35,
+          "rotation": 0.45,
+          "width": 256,
+          "height": 256
+        },
+        "img/danteng3_09": {
+          "x": 7.45,
+          "y": 40.35,
+          "rotation": 0.45,
+          "width": 256,
+          "height": 256
+        },
+        "img/danteng3_11": {
+          "x": 7.45,
+          "y": 40.35,
+          "rotation": 0.45,
+          "width": 256,
+          "height": 256
+        },
+        "img/danteng3_13": {
+          "x": 7.45,
+          "y": 40.35,
+          "rotation": 0.45,
+          "width": 256,
+          "height": 256
+        },
+        "img/danteng3_15": {
+          "x": 7.45,
+          "y": 40.35,
+          "rotation": 0.45,
+          "width": 256,
+          "height": 256
+        }
+      },
+      "img/shoul": {
+        "img/shoul": {
+          "x": -3.65,
+          "y": -6.89,
+          "rotation": 178.64,
+          "width": 68,
+          "height": 80
+        }
+      }
+    }
+  },
+  "animations": {
+    "animation": {
+      "slots": {
+        "img/danteng3_01": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.2666,
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.3,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "img/danteng3_04": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": "img/danteng3_04"
+            },
+            {
+              "time": 0.1333,
+              "name": "img/danteng3_06"
+            },
+            {
+              "time": 0.2,
+              "name": "img/danteng3_07"
+            },
+            {
+              "time": 0.2666,
+              "name": "img/danteng3_09"
+            },
+            {
+              "time": 0.3333,
+              "name": "img/danteng3_11"
+            },
+            {
+              "time": 0.4,
+              "name": "img/danteng3_13"
+            },
+            {
+              "time": 0.4666,
+              "name": "img/danteng3_15"
+            }
+          ],
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.4666,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.8333,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "img/shoul": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "img/danteng3_01": {
+          "translate": [
+            {
+              "time": 0,
+              "x": -197.4,
+              "y": 29.91
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 0.344,
+              "y": 0.344
+            },
+            {
+              "time": 0.1333,
+              "x": 1,
+              "y": 1
+            }
+          ]
+        },
+        "bone2": {
+          "translate": [
+            {
+              "time": 0,
+              "x": 7.65,
+              "y": 16.49
+            }
+          ]
+        }
+      }
+    }
+  }
+}

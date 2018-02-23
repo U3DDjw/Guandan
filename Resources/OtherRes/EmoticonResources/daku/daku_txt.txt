@@ -1,0 +1,48 @@
+
+daku.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+l2
+  rotate: false
+  xy: 197, 138
+  size: 56, 94
+  orig: 56, 94
+  offset: 0, 0
+  index: -1
+ld
+  rotate: false
+  xy: 2, 23
+  size: 147, 34
+  orig: 147, 34
+  offset: 0, 0
+  index: -1
+mm
+  rotate: false
+  xy: 2, 2
+  size: 45, 19
+  orig: 45, 19
+  offset: 0, 0
+  index: -1
+tou
+  rotate: false
+  xy: 2, 59
+  size: 173, 173
+  orig: 173, 173
+  offset: 0, 0
+  index: -1
+yj
+  rotate: true
+  xy: 177, 99
+  size: 133, 18
+  orig: 133, 18
+  offset: 0, 0
+  index: -1
+zui
+  rotate: false
+  xy: 197, 117
+  size: 36, 19
+  orig: 36, 19
+  offset: 0, 0
+  index: -1

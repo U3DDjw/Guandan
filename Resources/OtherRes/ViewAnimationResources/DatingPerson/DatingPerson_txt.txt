@@ -1,0 +1,61 @@
+
+meinv.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+eye1
+  rotate: true
+  xy: 795, 69
+  size: 68, 40
+  orig: 68, 40
+  offset: 0, 0
+  index: -1
+hair
+  rotate: false
+  xy: 743, 357
+  size: 239, 302
+  orig: 239, 302
+  offset: 0, 0
+  index: -1
+hudie1
+  rotate: false
+  xy: 795, 139
+  size: 56, 59
+  orig: 56, 59
+  offset: 0, 0
+  index: -1
+meinv
+  rotate: false
+  xy: 2, 397
+  size: 739, 614
+  orig: 739, 614
+  offset: 0, 0
+  index: -1
+sha you
+  rotate: false
+  xy: 608, 40
+  size: 185, 158
+  orig: 185, 158
+  offset: 0, 0
+  index: -1
+sha zuo
+  rotate: true
+  xy: 2, 2
+  size: 393, 604
+  orig: 393, 604
+  offset: 0, 0
+  index: -1
+xiuzi  zuo
+  rotate: false
+  xy: 743, 661
+  size: 269, 350
+  orig: 269, 350
+  offset: 0, 0
+  index: -1
+xiuzi you
+  rotate: false
+  xy: 608, 200
+  size: 347, 155
+  orig: 347, 155
+  offset: 0, 0
+  index: -1

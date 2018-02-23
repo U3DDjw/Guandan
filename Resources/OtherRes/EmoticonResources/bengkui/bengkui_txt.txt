@@ -1,0 +1,48 @@
+
+bengkui.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+s1
+  rotate: false
+  xy: 178, 103
+  size: 41, 42
+  orig: 41, 42
+  offset: 0, 0
+  index: -1
+s2
+  rotate: false
+  xy: 178, 147
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+tou
+  rotate: false
+  xy: 2, 67
+  size: 174, 174
+  orig: 174, 174
+  offset: 0, 0
+  index: -1
+y1
+  rotate: false
+  xy: 107, 17
+  size: 45, 48
+  orig: 45, 48
+  offset: 0, 0
+  index: -1
+y2
+  rotate: false
+  xy: 178, 191
+  size: 45, 50
+  orig: 45, 50
+  offset: 0, 0
+  index: -1
+zui
+  rotate: false
+  xy: 2, 2
+  size: 103, 63
+  orig: 103, 63
+  offset: 0, 0
+  index: -1
